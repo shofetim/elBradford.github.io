@@ -2,13 +2,12 @@
 layout: page
 title: Life of Jesus Christ Gallery
 modified: 2016-01-19
-
+comments: true
 excerpt: "A gallery of high-resolution, HD and 4k artwork depicting the life of Jesus Christ. Available as a gallery, zip archive, and Windows 7 and 8 Themepack."
 
 image:
   feature: life_of_jesus_christ_gallery/featured_image.jpg
-  credit: Eugene Burnand
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/		
+  credit: Eugen&eacute; Burnand
 ---
 
 I hope you enjoy this collection of HD wallpapers depicting the life of Jesus Christ. I've made them available as a Windows 7 ([see note below][1]) and Windows 8 Themepack, as well as a zip file for use on other systems (such as Linux, Mac, etc).
