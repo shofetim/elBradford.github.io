@@ -6,7 +6,7 @@ modified: 2016-01-19
 excerpt: "A gallery of high-resolution, HD and 4k artwork depicting the life of Jesus Christ. Available as a gallery, zip archive, and Windows 7 and 8 Themepack."
 
 image:
-  feature: {{ site.url }}/assets/images/pages/life_of_jesus_christ_gallery/featured_image.jpg
+  feature: life_of_jesus_christ_gallery/featured_image.jpg
   credit: Eugene Burnand
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/		
 ---
