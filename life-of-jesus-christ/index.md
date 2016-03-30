@@ -7,7 +7,7 @@ excerpt: "A gallery of high-resolution, HD and 4k artwork depicting the life of 
 
 image:
   feature: {{ site.url }}/assets/images/pages/life_of_jesus_christ_gallery/featured_image.jpg
-  credit: Eugenè Burnand
+  credit: Eugen&eacute; Burnand
 ---
 
 I hope you enjoy this collection of HD wallpapers depicting the life of Jesus Christ. I've made them available as a Windows 7 ([see note below][1]) and Windows 8 Themepack, as well as a zip file for use on other systems (such as Linux, Mac, etc).
