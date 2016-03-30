@@ -2,11 +2,11 @@
 layout: page
 title: Life of Jesus Christ Gallery
 modified: 2016-01-19
-excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
+comments: yes
+
 image:
-  feature: sample-image-3.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+  feature: {{ site.url }}/assets/images/pages/life_of_jesus_christ_gallery/featured_image.jpg
+  credit: Eugenè Burnand
 ---
 
 I hope you enjoy this collection of HD wallpapers depicting the life of Jesus Christ. I've made them available as a Windows 7 ([see note below][1]) and Windows 8 Themepack, as well as a zip file for use on other systems (such as Linux, Mac, etc).
@@ -60,4 +60,4 @@ Windows 8 creates a *.deskthemepack* file, which Windows 7 cannot open. If you 
 
  [1]: #windows7
  [2]: http://www.mormon.org/
- [Atonement Image]: {{ site.url }}/assets/images/quote-scott-christus.jpg
+ [Atonement Image]: {{ site.url }}/assets/images/pages/life_of_jesus_christ_gallery/quote-scott-christus.jpg
