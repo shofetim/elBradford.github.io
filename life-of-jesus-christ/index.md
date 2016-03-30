@@ -2,7 +2,7 @@
 layout: page
 title: Life of Jesus Christ Gallery
 modified: 2016-01-19
-comments: yes
+comments: true
 
 image:
   feature: {{ site.url }}/assets/images/pages/life_of_jesus_christ_gallery/featured_image.jpg
