@@ -1,5 +1,5 @@
 url: https://bradford.la
 name: meo modo
 description: operandi
-
+permalink: /blog/:year/title.html
 paginate: 5
