@@ -24,11 +24,11 @@
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
     <span class="image-credit">Photo Credit:
-      {% if page.image.creditlink}
+      {% if page.image.creditlink %}
         <a href="{{ page.image.creditlink }}">
       {% endif %}
       {{ page.image.credit }}
-      {% if page.image.creditlink}
+      {% if page.image.creditlink %}
       </a>
       {% endif %}
     </span>
