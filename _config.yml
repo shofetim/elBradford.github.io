@@ -6,6 +6,7 @@ paginate: 5
 
 # Front Page Variables
 # about 5 elements are recomended
+front_page_name: Bradford
 github_username:  elBradford
 twitter_username: meomod
 linkedin_username: bradfordl
