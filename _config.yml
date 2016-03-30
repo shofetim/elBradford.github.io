@@ -1,8 +1,67 @@
-url: https://bradford.la
-name: meo modo
+# Site wide configuration
+title: meo modo
 description: operandi
+locale: en_US
+logo: assets/images/logo.png
+url: https://bradford.la
+
+# Jekyll configuration
 permalink: /blog/:year/title.html
+markdown:    kramdown
+highlighter: rouge
 paginate: 5
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
+
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
+
+# Default extensions
+post_ext: md
+page_ext: md
+
+# Found in _templates/
+post_layout: post
+page_layout: page
+
+# Format titles with titlecase?
+titlecase: true
+
+# Site owner
+owner:
+  name: Bradford
+  avatar: "https://avatars3.githubusercontent.com/u/1217269?v=3&s=190"
+  email: 
+  disqus-shortname:
+  twitter: meomod
+  facebook: #username
+  github: elBradford
+  stackexchange: http://stackoverflow.com/users/1486966/elbradford
+  linkedin: bradfordl
+  instagram: #username
+  flickr: #username
+  tumblr: #username
+  pinterest: #username
+  weibo: #userid
+  google:
+    plus: #username
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
 
 # Front Page Variables
 # about 5 elements are recomended
