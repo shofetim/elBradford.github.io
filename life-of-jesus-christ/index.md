@@ -2,7 +2,7 @@
 layout: page
 title: Life of Jesus Christ Gallery
 modified: 2016-01-19
-comments: true
+
 excerpt: "A gallery of high-resolution, HD and 4k artwork depicting the life of Jesus Christ. Available as a gallery, zip archive, and Windows 7 and 8 Themepack."
 
 image:
