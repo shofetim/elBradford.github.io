@@ -3,3 +3,20 @@ name: meo modo
 description: operandi
 permalink: /blog/:year/title.html
 paginate: 5
+
+# Front Page Variables
+# about 5 elements are recomended
+github_username:  elBradford
+twitter_username: meomod
+linkedin_username: bradfordl
+stack_of_username: 1486966
+blog_url: "/blog"
+public_key_url: "https://raw.pastebin.com/LINK-TO-PUBLIC-KEY"
+avatar: yes
+#avatar_img_path: "imgs/avatar.jpg""
+# You can link to your GitHub image. That way it will get updated
+# automatically whenever you change your GitHub profile picture
+avatar_img_path: "https://avatars3.githubusercontent.com/u/1217269?v=3&s=190"
+front_img: yes
+front_img_path: "assets/images/background.jpg"
+#front_img_path: "https://external.url/image.jpg"
