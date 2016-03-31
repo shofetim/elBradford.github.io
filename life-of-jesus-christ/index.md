@@ -57,7 +57,7 @@ Windows 8 creates a *.deskthemepack* file, which Windows 7 cannot open. If you 
 : Fixed one of the photos.
 
 **v1:** 19 Apr 2009
-: Initial release, mainly using images from the [Gospel Art Book(]https://www.lds.org/media-library/images?lang=eng&_r=1) made available by the [LDS church](http://mormon.org).
+: Initial release, mainly using images from the [Gospel Art Book](https://www.lds.org/media-library/images?lang=eng&_r=1) made available by the [LDS church](http://mormon.org).
 
  [1]: #windows7
  [2]: http://www.mormon.org/
