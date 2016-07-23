@@ -132,3 +132,57 @@ Edit `riddle.py` to notate the following:
 ## Documentation
 
 https://docs.python.org/
+
+![Picture6.png]({{site.baseurl}}/_posts/Picture6.png)
+
+
+
+## Input
+
+Now let’s get input from the console.
+
+	input([prompt])
+	If the prompt argument is present, it is written to standard output without a trailing 			newline. The function then reads a line from input, converts it to a string (stripping a 		trailing newline), and returns that.
+
+	https://docs.python.org/3.2/library/functions.html?highlight=input#input
+    
+
+	name = input(“WHAT... is your name?”)
+	print(“Your name is”, name)
+
+
+
+## Blocks
+
+Blocks are one or more consecutive lines that form a single unit
+
+Other languages (C, C++, C#, Java) require curly braces `{}` to indicate the beginning and the end of a block
+
+Python uses _indentation_ to create blocks
+
+Indentation can be either:
+- A combination of spaces (most common & recommended is 4 spaces)
+- A single tab
+
+Most important rule: 
+**DON’T MIX INDENTATION STYLES**
+
+
+
+## Decision Making - Conditional Statements
+
+If statement:
+
+	if [condition]:
+		[do action]
+    elif [condition]:
+    	[do action]
+    else:
+    	[do action]
+
+How does Python know when a conditional action ends?
+
+
+
+
+
