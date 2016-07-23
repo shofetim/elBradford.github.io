@@ -111,3 +111,26 @@ Indicated by `#`:
 	# I’m a comment. 
 	# print(“I’m also a comment”)
 
+
+## Exercise 2
+### ≈3 Minutes
+
+Edit `riddle.py` to notate the following:
+
+	The name of your program
+	The name of the developer
+	The date the script was created
+    
+### Solution
+
+	# Riddle Program
+	# Bradford
+	# 15 July 2015
+
+
+
+## Documentation
+
+https://docs.python.org/ 
+
+
