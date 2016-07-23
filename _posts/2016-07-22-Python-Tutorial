@@ -5,6 +5,10 @@ published: false
 
 _This is a translation from a 90 minute class I held on the basics of Python scripting._
 
+![Picture1.jpg]({{site.baseurl}}/_posts/Picture1.jpg)
+
+
+
 ### About Python
 - Developed by Guido van Rossum
 - First released in 1991
@@ -15,6 +19,77 @@ _This is a translation from a 90 minute class I held on the basics of Python scr
 - Free and Open Source
 - Easy to learn
 
-![Picture1.jpg]({{site.baseurl}}/_posts/Picture1.jpg)
 
+
+### Python Applications
+- Console / Scripts
+- GUI
+- Web
+
+![Picture2.png]({{site.baseurl}}/_posts/Picture2.png)
+
+![Picture3.png]({{site.baseurl}}/_posts/Picture3.png)
+
+
+
+### Environment
+- Lubuntu VM
+- Python 2.7 with IDLE
+ - IDLE is a basic Integrated Development Environment (IDE) for Python
+
+![Picture4.png]({{site.baseurl}}/_posts/Picture4.png)
+
+![Picture5.png]({{site.baseurl}}/_posts/Picture5.png)
+
+
+
+### Interactive vs. Script Mode
+
+
+We will start with interactive mode which gives us immediate feedback
+
+	# python3
+	>>> 
+
+Most programmers program Python in script mode. In script mode you can write, edit, load, and save your programs
+
+	# python3 script.py
+
+
+
+### Our First Program – “Why do witches burn?”
+
+Open Python in interactive mode and type:
+
+	>>> print(“Why do witches burn?”)
+    
+What happens?
+
+Print is a _function_, everything within parenthesis are _arguments_
+
+_Functions_ are subroutines that can be reused for common tasks, such as printing to the console
+
+
+
+### Our First Program - Again
+
+Let’s write our first program in _script mode_
+
+	print(“Why do witches burn?”)
+	input(“Press enter for the answer”)
+	print(“Because they’re made of wood.”)
+
+Save the file as `riddle.py`, and from another console, type:
+
+	# python3 riddle.py
+
+
+
+## Exercise 1 - ≈5 Minutes
+
+Edit `riddle.py` to display the following every time it is run:
+
+	Riddle Program
+	By: \[Your Name\], accompanied by a(n) \[adjective\] \[your spirit animal\]
+	\[new line\]
 
