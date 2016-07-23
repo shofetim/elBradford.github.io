@@ -85,11 +85,29 @@ Save the file as `riddle.py`, and from another console, type:
 
 
 
-## Exercise 1 - ≈5 Minutes
+## Exercise 1
+### ≈5 Minutes
 
 Edit `riddle.py` to display the following every time it is run:
 
 	Riddle Program
-	By: \[Your Name\], accompanied by a(n) \[adjective\] \[your spirit animal\]
-	\[new line\]
+	By: [Your Name], accompanied by a(n) [adjective] [your spirit animal]
+	[new line]
+
+### Solution
+
+	print(“Riddle Program”)
+	print(“By: Bradford, accompanied by a corpulent camel spider”)
+	print()
+
+
+
+## Comments
+
+Comments are ignored by Python, but are invaluable for programmers.
+
+Indicated by `#`:
+
+	# I’m a comment. 
+	# print(“I’m also a comment”)
 
