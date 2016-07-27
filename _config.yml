@@ -5,6 +5,11 @@ locale: en_US
 logo: assets/images/logo.png
 url: https://bradford.la
 
+# Global Variables
+img-dir: assets/images
+img-dir-posts: %img-dir%/posts
+img-dir-posts-arch: %img-dir-posts%/archive
+
 # Jekyll configuration
 permalink: /blog/:year/title.html
 markdown:    kramdown
