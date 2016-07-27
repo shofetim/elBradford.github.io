@@ -6,8 +6,8 @@ logo: assets/images/logo.png
 url: https://bradford.la
 
 # Global Variables
-img-dir-posts: assets/images/posts
-img-dir-posts-arch: assets/images/archive
+img-dir-posts: /assets/images/posts
+img-dir-posts-arch: /assets/images/archive
 
 # Jekyll configuration
 permalink: /blog/:year/title.html

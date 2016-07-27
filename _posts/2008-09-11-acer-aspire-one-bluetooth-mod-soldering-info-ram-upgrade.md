@@ -3,14 +3,6 @@ id: 1512
 title: 'Acer Aspire One Bluetooth Mod (Soldering Info) &#038; Ram Upgrade'
 author: bradford
 layout: post
-guid: /2008/09/11/acer-aspire-one-bluetooth-mod-soldering-info-ram-upgrade/
-permalink: /2008/acer-aspire-one-bluetooth-mod-soldering-info-ram-upgrade
-blogger_blog:
-  - bradfordslaptap.blogspot.com
-blogger_author:
-  - Bradfordnoreply@blogger.com
-blogger_permalink:
-  - /2008/09/acer-aspire-one-bluetooth-mod-soldering.html
 categories:
   - Technology
 tags:
@@ -65,7 +57,7 @@ Enough of the tips for now, here&#8217;s an overview of what I did.
   <p style="text-align: center;">
     <a href="https://theblawblog.files.wordpress.com/2008/09/2762558852_687221d6ee.jpg"><img class="aligncenter size-full wp-image-1397" title="2762558852_687221d6ee" src="https://theblawblog.files.wordpress.com/2008/09/2762558852_687221d6ee.jpg" alt="" width="375" height="500" /></a>
   </p>
-  
+
   <p>
     <span style="font-size: 78%;"><em>Original photo by <a style="text-align: center;" href="http://www.flickr.com/photos/tnkgrl/">tnkgrl</a></em></span>
   </p>
@@ -77,7 +69,7 @@ I purchased [this ][9]bluetooth dongle for $30 &#8211; $10 mail in rebate. I too
   <p style="text-align: center;">
     <a href="https://theblawblog.files.wordpress.com/2008/09/2761713249_82c3ec7970_b.jpg"><img class="aligncenter size-full wp-image-1398" title="2761713249_82c3ec7970_b" src="https://theblawblog.files.wordpress.com/2008/09/2761713249_82c3ec7970_b.jpg" alt="" width="640" height="480" /></a>
   </p>
-  
+
   <p>
     <span style="font-size: 78%;"><em>Original photo by <a style="text-align: center;" href="http://www.flickr.com/photos/tnkgrl/">tnkgrl</a></em></span>
   </p>
@@ -93,7 +85,7 @@ Next, I soldered the +5V and the ground. In the picture below it is not perfectl
   <p style="text-align: center;">
     <a href="https://theblawblog.files.wordpress.com/2008/09/2761713081_002b5874fa_b.jpg"><img class="aligncenter size-full wp-image-1399" title="2761713081_002b5874fa_b" src="https://theblawblog.files.wordpress.com/2008/09/2761713081_002b5874fa_b.jpg" alt="" width="640" height="480" /></a>
   </p>
-  
+
   <p>
     <span style="font-size: 78%;"><em>Original photo by <a style="text-align: center;" href="http://www.flickr.com/photos/tnkgrl/">tnkgrl</a></em></span>
   </p>
@@ -105,7 +97,7 @@ Now for the mother of solders. Like I said, I&#8217;m not terribly experienced a
   <p style="text-align: center;">
     <a href="https://theblawblog.files.wordpress.com/2008/09/2761712947_3448c59a44_b.jpg"><img class="aligncenter size-full wp-image-1401" title="2761712947_3448c59a44_b" src="https://theblawblog.files.wordpress.com/2008/09/2761712947_3448c59a44_b.jpg" alt="" width="640" height="853" /></a>
   </p>
-  
+
   <p>
     <span style="font-size: 78%;"><em>Original photo by <a style="text-align: center;" href="http://www.flickr.com/photos/tnkgrl/">tnkgrl</a></em></span>
   </p>
@@ -117,7 +109,7 @@ Just remember, have a LOT OF LIGHT, a strong magnification source, fine solder, 
   <p style="text-align: center;">
     <a href="https://theblawblog.files.wordpress.com/2008/09/2761713397_e684b19b72_b.jpg"><img class="aligncenter size-full wp-image-1402" title="2761713397_e684b19b72_b" src="https://theblawblog.files.wordpress.com/2008/09/2761713397_e684b19b72_b.jpg" alt="" width="640" height="480" /></a>
   </p>
-  
+
   <p>
     <span style="font-size: 78%;"><em>Original photo by <a style="text-align: center;" href="http://www.flickr.com/photos/tnkgrl/">tnkgrl</a></em></span>
   </p>

@@ -1,9 +1,17 @@
 ---
 published: true
+title: 'A Quick and Easy Python Tutorial'
+author: bradford
+layout: post
+categories:
+  - Technology
+  - Tutorials
+tags:
+  - Python
 ---
 ## A Quick and Easy Python Tutorial
 
-_This is a translation from a 90 minute class I held on the basics of Python scripting._
+_This is a translation from a 90 minute class I held on the basics of Python scripting._<!--more-->
 
 ![Picture1.jpg]({{site.img-dir-posts}}/Picture1.jpg)
 
