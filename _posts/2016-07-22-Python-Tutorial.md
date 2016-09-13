@@ -1,6 +1,7 @@
 ---
 published: true
 title: 'A Quick and Easy Python Tutorial'
+permalink: /2016/quick-and-easy-python
 author: bradford
 layout: post
 categories:
