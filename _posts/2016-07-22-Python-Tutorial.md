@@ -35,6 +35,7 @@ _A download link for the PowerPoint .pptx file is at the bottom of the article._
 - GUI
 - Web
 
+
 ![Picture2.png]({{site.img-dir-posts}}/Picture2.png)
 
 
@@ -47,6 +48,7 @@ _A download link for the PowerPoint .pptx file is at the bottom of the article._
 - Lubuntu VM
 - Python 2.7 with IDLE
  - IDLE is a basic Integrated Development Environment (IDE) for Python
+
 
 ![Picture4.png]({{site.img-dir-posts}}/Picture4.png)
 
@@ -150,6 +152,7 @@ Edit `riddle.py` to notate the following:
 ## Documentation
 
 https://docs.python.org/
+
 
 ![Picture6.png]({{site.img-dir-posts}}/Picture6.png)
 
