@@ -9,8 +9,6 @@ categories:
 tags:
   - Python
 ---
-## A Quick and Easy Python Tutorial
-
 _This is a translation from a 90 minute class I held on the basics of Python scripting._<!--more-->
 
 ![Picture1.jpg]({{site.img-dir-posts}}/Picture1.jpg)
@@ -34,9 +32,9 @@ _This is a translation from a 90 minute class I held on the basics of Python scr
 - GUI
 - Web
 
-![Picture2.png]({{site.baseurl}}/_posts/Picture2.png)
+![Picture2.png]({{site.img-dir-posts}}/Picture2.png)
 
-![Picture3.png]({{site.baseurl}}/_posts/Picture3.png)
+![Picture3.png]({{site.img-dir-posts}}/Picture3.png)
 
 
 
@@ -45,9 +43,9 @@ _This is a translation from a 90 minute class I held on the basics of Python scr
 - Python 2.7 with IDLE
  - IDLE is a basic Integrated Development Environment (IDE) for Python
 
-![Picture4.png]({{site.baseurl}}/_posts/Picture4.png)
+![Picture4.png]({{site.img-dir-posts}}/Picture4.png)
 
-![Picture5.png]({{site.baseurl}}/_posts/Picture5.png)
+![Picture5.png]({{site.img-dir-posts}}/Picture5.png)
 
 
 
@@ -141,7 +139,7 @@ Edit `riddle.py` to notate the following:
 
 https://docs.python.org/
 
-![Picture6.png]({{site.baseurl}}/_posts/Picture6.png)
+![Picture6.png]({{site.img-dir-posts}}/Picture6.png)
 
 
 
@@ -246,6 +244,7 @@ What does the above loop do?
 
 
 ## Exercise 4
+
 ### ≈10 Minutes
 
 Edit `riddle.py` to perform the following:
@@ -272,7 +271,11 @@ How does Python know when the function begins? Ends?
 ## Python Resources
 
 Python.org Beginner's Guide: https://wiki.python.org/moin/BeginnersGuide
+
 Python.org Beginner's Guide for Programmers: https://wiki.python.org/moin/BeginnersGuide/Programmers
+
 The Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
+
 Safari Books Online (5712 results for 'Python'): http://techbus.safaribooksonline.com/search?q=python
+
 Python Documentation: https://docs.python.org/
