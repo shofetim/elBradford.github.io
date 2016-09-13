@@ -9,6 +9,7 @@ categories:
   - Tutorials
 tags:
   - Python
+comments: true
 ---
 _This is a translation from a 90 minute class I held on the basics of Python scripting._<!--more-->
 _A download link for the PowerPoint .pptx file is at the bottom of the article._
