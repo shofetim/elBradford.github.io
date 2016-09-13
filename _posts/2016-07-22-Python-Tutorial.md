@@ -9,7 +9,7 @@ categories:
 tags:
   - Python
 ---
-_This is a translation from a 90 minute class I held on the basics of Python scripting._<!--more-->
+_This is a translation from a 90 minute class I held on the basics of Python scripting. A download link for the PowerPoint .pptx file is at the bottom of the article._<!--more-->
 
 ![Picture1.jpg]({{site.img-dir-posts}}/Picture1.jpg)
 
@@ -34,6 +34,8 @@ _This is a translation from a 90 minute class I held on the basics of Python scr
 
 ![Picture2.png]({{site.img-dir-posts}}/Picture2.png)
 
+
+
 ![Picture3.png]({{site.img-dir-posts}}/Picture3.png)
 
 
@@ -44,6 +46,8 @@ _This is a translation from a 90 minute class I held on the basics of Python scr
  - IDLE is a basic Integrated Development Environment (IDE) for Python
 
 ![Picture4.png]({{site.img-dir-posts}}/Picture4.png)
+
+
 
 ![Picture5.png]({{site.img-dir-posts}}/Picture5.png)
 
@@ -71,7 +75,9 @@ Open Python in interactive mode and type:
 
 What happens?
 
+
 Print is a _function_, everything within parenthesis are _arguments_
+
 
 _Functions_ are subroutines that can be reused for common tasks, such as printing to the console
 
@@ -92,6 +98,7 @@ Save the file as `riddle.py`, and from another console, type:
 
 
 ## Exercise 1
+
 ### ≈5 Minutes
 
 Edit `riddle.py` to display the following every time it is run:
@@ -112,6 +119,7 @@ Edit `riddle.py` to display the following every time it is run:
 
 Comments are ignored by Python, but are invaluable for programmers.
 
+
 Indicated by `#`:
 
 	# I’m a comment.
@@ -119,6 +127,7 @@ Indicated by `#`:
 
 
 ## Exercise 2
+
 ### ≈3 Minutes
 
 Edit `riddle.py` to notate the following:
@@ -160,15 +169,19 @@ Now let’s get input from the console.
 
 ## Blocks
 
-Blocks are one or more consecutive lines that form a single unit
+Blocks are one or more consecutive lines that form a single unit.
 
-Other languages (C, C++, C#, Java) require curly braces `{}` to indicate the beginning and the end of a block
 
-Python uses _indentation_ to create blocks
+Other languages (C, C++, C#, Java) require curly braces `{}` to indicate the beginning and the end of a block.
+
+
+Python uses _indentation_ to create blocks ---
+
 
 Indentation can be either:
 - A combination of spaces (most common & recommended is 4 spaces)
 - A single tab
+
 
 Most important rule:
 **DON’T MIX INDENTATION STYLES**
@@ -188,6 +201,7 @@ If statement:
 
 How does Python know when a conditional action ends?
 
+
 If statement:
 
 	swallow = “european"
@@ -201,6 +215,7 @@ If statement:
 
 
 ## Exercise 3
+
 ### ≈10 Minutes
 
 Edit `riddle.py` to perform the following:
@@ -249,6 +264,7 @@ What does the above loop do?
 
 Edit `riddle.py` to perform the following:
 
+
 Ask the user a riddle. Implement a loop that continues to loop until the user provides the right answer.
 
 Bonus: make the input case-insensitive [string.lower()]
@@ -270,12 +286,14 @@ How does Python know when the function begins? Ends?
 
 ## Python Resources
 
-Python.org Beginner's Guide: https://wiki.python.org/moin/BeginnersGuide
+[This tutorial (PowerPoint Presentation)](/assets/bin/Python_for_Beginners.pptx)
 
-Python.org Beginner's Guide for Programmers: https://wiki.python.org/moin/BeginnersGuide/Programmers
+[Python.org Beginner's Guide](https://wiki.python.org/moin/BeginnersGuide)
 
-The Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
+[Python.org Beginner's Guide for Programmers](https://wiki.python.org/moin/BeginnersGuide/Programmers)
 
-Safari Books Online (5712 results for 'Python'): http://techbus.safaribooksonline.com/search?q=python
+[The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/)
 
-Python Documentation: https://docs.python.org/
+[Safari Books Online (5712 results for 'Python')](http://techbus.safaribooksonline.com/search?q=python)
+
+[Python Documentation](https://docs.python.org/)
