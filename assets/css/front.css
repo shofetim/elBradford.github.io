@@ -73,6 +73,15 @@ a {
     padding: 15px;
     text-decoration: none;
 }
+a.box:hover {
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-decoration: none;
+}
+
 .description {
     display: none;
 }
