@@ -13,23 +13,29 @@ comments: true
 ---
 _As I learn more about encryption, I enjoy exploring its many aspects, including this ancient method of encryption called the **Caesar Cipher**, or recently called **ROT13**._<!--more-->
 
+
 [_From Wikipedia:_](https://en.wikipedia.org/wiki/Caesar_cipher)
+
 >In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
 
 >The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially **no communication security**.
 
+
 ![Caesar Cipher]({{site.img-dir-posts}}/CaesarCipher.png)
+
 
 This is a very simple script - read in each character from stdin, rotate it by the appropriate number of characters, and print out the resulting characters.
 
+
 One of the more difficult parts of this simple task was learning the powerful [argparse library for Python](https://docs.python.org/3/library/argparse.html). String parsing is always a time-consuming and potentially error-prone part of programming, so I wanted to simplify the process as much as possible, and argparse definitely delivered. As you'll see below, in a few simple lines it enforces argument mutual exclusion, help text, and all the parsing that goes along with them. I won't make this post about argparse, but I love it.
+
 
 The second problem I encountered was encoding. Python 3.x uses unicode encoding, which happens to be the same as ASCII as long as the characters are below 127. To keep this simple, we just encode A-Z and a-z and throw an error to stdout whenever we encounter a character outside those bounds. The logic is very simple. Go ahead and give the script a whirl, make sure you understand how it works. The '-h' argument will help you understand how the other arguments work.
 
 ### ROT13 Final Product
 [Source on GitHub](https://github.com/elBradford/snippets/blob/master/rot13.py)
 
-'''python
+'''
 import argparse
 import sys
 
@@ -76,7 +82,7 @@ What if we want to encode a binary file with a Caesar Cipher? Great question! Ba
 ### ROT64 Final Product
 [Source on GitHub]()
 
-'''python
+'''
 import argparse
 import sys
 import base64

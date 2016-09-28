@@ -2,8 +2,8 @@
                  (\(\)
  ,_              ;  o >  < Welcome! You are at the beginning of a great adventure.
   {`-.          /  (_)     This puzzle series will be updated incrementally, and
-  `={\`-._____/`   |       as it is updated the last updated date in the top left
-   `-{ /    -=`\   |       corner will be updated as well.
+  `={\`-._____/`   |       as it is updated the date in the top left corner will
+   `-{ /    -=`\   |       reflect the most recent changes.
     `={  -= = _/   /
        `\  .-'   /`        You may choose your path below; let's see how far you
         {`-,__.'===,_      can get!
@@ -21,7 +21,7 @@
                                                        |___/
 
 You got this far based on your ability to identify base64-encoded text. Subsequent
-puzzles may not spit out clear-text answers like this was. In other words, count on
+puzzles may not spit out clear-text answers. In other words, count on
 getting an encrypted response.
 
 Beginner:     Yml0Lmx5L1ltRnVkRzBLCg==
