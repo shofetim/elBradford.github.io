@@ -35,7 +35,7 @@ The second problem I encountered was encoding. Python 3.x uses unicode encoding,
 ### ROT13 Final Product
 [Source on GitHub](https://github.com/elBradford/snippets/blob/master/rot13.py)
 
-'''
+''' python
 import argparse
 import sys
 
@@ -82,7 +82,7 @@ What if we want to encode a binary file with a Caesar Cipher? Great question! Ba
 ### ROT64 Final Product
 [Source on GitHub]()
 
-'''
+''' python
 import argparse
 import sys
 import base64
