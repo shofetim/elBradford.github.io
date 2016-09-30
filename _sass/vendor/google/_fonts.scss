@@ -31,3 +31,7 @@
   font-weight: 400;
   src: local('PT Serif Italic'), local('PTSerif-Italic'), url(http://fonts.gstatic.com/s/ptserif/v7/03aPdn7fFF3H6ngCgAlQzPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ptserif/v7/03aPdn7fFF3H6ngCgAlQzBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
+@font-face {
+    font-family: "ElroNet";
+    src: url(/assets/fonts/ElroNet-Monospace.woff) (format('woff'), url(/assets/fonts/ElroNet-Monospace.woff2), (format('woff2'), url(/assets/fonts/ElroNet-Monospace.svg) (format('svg'), url(/assets/fonts/ElroNet-Monospace.eot) (format('eot'));
+}
