@@ -75,7 +75,8 @@ After a few false starts, I got a working build that was able to utilize the GPU
 
 Start with a working LXC host with an Nvidia-based GPU that supports NVENC
 
-**Step 1: Download and install Nvidia proprietary drivers on the host**
+#### Step 1: Download and install Nvidia proprietary drivers on the host ####
+
 Go to http://www.nvidia.com/object/unix.html to download the most recent driver for your architecture. You may need to install gcc and make from your package manager. Make sure you remove any previously-installed nvidia drivers before you do this.
 
 ```bash
@@ -96,7 +97,8 @@ Test you can access the driver by running `nvidia-smi`
 # nvidia-smi
 ```
 
-**Step 2: Passthrough GPU /dev nodes to LXC**
+#### Step 2: Passthrough GPU /dev nodes to LXC ####
+
 _Important:_ Make sure your container is the same version as your host - if your host is Ubuntu 16.10, your container must be Ubuntu 16.10.
 
 Edit your lxc container `.conf` file to pass through the devices - Proxmox places the files in `/etc/pve/lxc/###.conf` - edit it like so:
@@ -105,7 +107,8 @@ Edit your lxc container `.conf` file to pass through the devices - Proxmox place
 lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file,uid=65534,gid=65534
 lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file,uid=65534,gid=65534```
 
-**Step 3:  Download and install Nvidia proprietary drivers in the container**
+#### Step 3:  Download and install Nvidia proprietary drivers in the container ####
+
 Log into your Container and install the driver, but don't install the kernel modules - let's use `--no-kernel-module` to make sure the .run package doesn't try to install them, since we`re using the host kernel that already has the module loaded:
 
 ```bash
@@ -121,7 +124,8 @@ Test that `nvidia-smi` works:
 # nvidia-smi
 ```
 
-**Step 4: Install the CUDA and NVENC SDKs**
+#### Step 4: Install the CUDA and NVENC SDKs ####
+
 We need to download the current CUDA SDK, which we`ll use to build FFMPEG later. Go to https://developer.nvidia.com/cuda-downloads to download the appropriate runfile.
 
 When you install the CUDA SDK, be sure **not** to install the driver again - you already have. Install the toolkit and the samples in the default locations.
@@ -148,7 +152,8 @@ Next, download the NVENC SDK from the developer`s site: https://developer.nvidia
 # cp Video_Codec_SDK_7.1.9/Samples/common/inc/*.h /usr/local/include
 ```
 
-**Step 5: Grab other FFMPEG dependencies**
+#### Step 5: Grab other FFMPEG dependencies ####
+
 Based on your FFMPEG configuration, you may need different libraries. I opted to grab as many as I could from apt in order to simplify, but you may find you need to search for others. My configuration is based on the [general-purpose static build recommended by Emby devs](https://www.johnvansickle.com/ffmpeg/), and called for the following libraries and packages to be installed:
 
 ```bash
@@ -157,7 +162,8 @@ Based on your FFMPEG configuration, you may need different libraries. I opted to
 
 Later on, during the configure stage, you may find you need more or less of these libraries.
 
-**Step 6: Get and Build FFMPEG**
+#### Step 6: Get and Build FFMPEG ####
+
 Download ffmpeg [from git](https://git.ffmpeg.org/gitweb/ffmpeg.git) and select your desired branch. I chose 3.1, since 3.2.2 had issues with Emby (based on a flaw in ffmpeg):
 
 ```bash
@@ -201,7 +207,7 @@ That's it! Take FFMPEG for a spin - try some encodes and see how fast it goes. I
 
 ### The Good ###
 
-I told Emby to use the system-installed ffmpeg and to use NVENC for transcoding. I was _immediately_ blown away at how fast the transcoded video stream started, and how quickly it proceeded. I had a 23Mbit source file that I forced to transcode to 1Mbit, and later at 21Mbit. I didn`t get any benchmarks, but whereas before I was getting less than realtime transcoding, emby had transcoded an entire 45 minute h264 encode in about 5-10 minutes. VERY FAST.
+I told Emby to use the system-installed ffmpeg and to use NVENC for transcoding. I was _immediately_ blown away at how fast the transcoded video stream started, and how quickly it proceeded. I had a 23Mbit source file that I forced to transcode to 1Mbit, and later at 21Mbit. According to my benchmarks, the 21Mbit transcode of a 23Mbit source was giving me about 112 fps. More than fast enough - in fact, if I can get the quality higher with a slower transcode, I'd be happy, because...
 
 ### The Bad ###
 
