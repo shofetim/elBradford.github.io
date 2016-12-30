@@ -1,6 +1,6 @@
 ---
 published: true
-title: `How To: GPU (NVENC) Accelerated FFMPEG in an LXC Container`
+title: 'How To: GPU (NVENC) Accelerated FFMPEG in an LXC Container'
 permalink: /2016/GPU-FFMPEG-in-LXC
 author: bradford
 layout: post
