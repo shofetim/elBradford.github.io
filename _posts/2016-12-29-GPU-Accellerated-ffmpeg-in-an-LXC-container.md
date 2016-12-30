@@ -31,9 +31,9 @@ Emby came out with experimental GPU encoding support [as early as Januay 2015](h
 
 
 
-# Part 1 #
+## Part 1 ##
 
-## Pass GPU to LXC Container ##
+### Pass GPU to LXC Container ###
 
 In order to get a LXC container to have access to the NVidia GPU, you need to pass the device through to the container in the lxc config file (more on that later). But in order to do that, the devices need to appear in the ``/dev/`` folder, specificially ``/dev/nvidia0` and its brothers.
 
