@@ -155,7 +155,7 @@ We also need to copy the cuda.h file to our local includes to make it easier to 
 # cp /usr/local/cuda/include/cuda.h /usr/include/
 ```
 
-### Step 5: Install the Nvidia Video Codec SDK ###
+#### Step 5: Install the Nvidia Video Codec SDK ####
 
 Next, download the Nvidia Video Codec SDK from the developer's site: <https://developer.nvidia.com/nvidia-video-codec-sdk>. You will need to create an account to gain access to the most current version of the SDK. 
 
@@ -169,7 +169,7 @@ I tested with 7.1, however it's possible 8.0 will also work. 8.0 is required for
 # cp Video_Codec_SDK_7.1.9/Samples/common/inc/*.h /usr/local/include
 ```
 
-#### Step 5: Grab other FFMPEG dependencies ####
+#### Step 6: Grab other FFMPEG dependencies ####
 
 Based on your FFMPEG configuration, you may need different libraries. I opted to grab as many as I could from apt in order to simplify, but you may find you need to search for others. My configuration is based on the [general-purpose static build recommended by Emby devs](https://www.johnvansickle.com/ffmpeg/), and called for the following libraries and packages to be installed:
 
@@ -179,7 +179,7 @@ Based on your FFMPEG configuration, you may need different libraries. I opted to
 
 Later on, during the configure stage, you may find you need more or less of these libraries.
 
-#### Step 6: Get and Build FFMPEG ####
+#### Step 7: Get and Build FFMPEG ####
 
 Download ffmpeg [from git](https://git.ffmpeg.org/gitweb/ffmpeg.git) and select your desired branch. I chose 3.1, since 3.2.2 had issues with Emby (based on a flaw in ffmpeg):
 
