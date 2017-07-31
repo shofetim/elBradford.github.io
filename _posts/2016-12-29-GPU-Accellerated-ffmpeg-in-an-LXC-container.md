@@ -103,9 +103,11 @@ _Important:_ Make sure your container is the same version as your host - if your
 
 Edit your lxc container `.conf` file to pass through the devices - Proxmox places the files in `/etc/pve/lxc/###.conf` - edit it like so:
 
-```lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file,uid=65534,gid=65534
+```
+lxc.mount.entry: /dev/nvidia0 dev/nvidia0 none bind,optional,create=file,uid=65534,gid=65534
 lxc.mount.entry: /dev/nvidiactl dev/nvidiactl none bind,optional,create=file,uid=65534,gid=65534
-lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file,uid=65534,gid=65534```
+lxc.mount.entry: /dev/nvidia-uvm dev/nvidia-uvm none bind,optional,create=file,uid=65534,gid=65534
+```
 
 #### Step 3:  Download and install Nvidia proprietary drivers in the container ####
 
