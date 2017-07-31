@@ -152,10 +152,7 @@ Edit `riddle.py` to notate the following:
 
 ## Documentation
 
-https://docs.python.org/
-
-
-![Picture6.png]({{site.img-dir-posts}}/Picture6.png)
+[![Picture6.png]({{site.img-dir-posts}}/Picture6.png)](https://docs.python.org/)
 
 
 
