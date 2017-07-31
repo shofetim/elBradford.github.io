@@ -7,6 +7,7 @@ permalink: /2015/henry-ossawa-tanner
 categories:
   - Art
 format: gallery
+comments: true
 ---
 While I was searching for artwork for my Every 6 project (and, indirectly, my [Life of Christ wallpaper pack][1]), I stumbled across the works of Henry Ossawa Tanner. I love his style - sometimes abstract, sometimes realist.<!--more-->
 
