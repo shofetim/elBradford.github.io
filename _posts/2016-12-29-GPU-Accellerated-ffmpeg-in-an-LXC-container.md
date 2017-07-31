@@ -77,7 +77,7 @@ Start with a working LXC host with an Nvidia-based GPU that supports NVENC
 
 #### Step 1: Download and install Nvidia proprietary drivers on the host ####
 
-Go to http://www.nvidia.com/object/unix.html to download the most recent driver for your architecture. You may need to install gcc and make from your package manager. Make sure you remove any previously-installed nvidia drivers before you do this.
+Go to <http://www.nvidia.com/object/unix.html> to download the most recent driver for your architecture. You may need to install gcc and make from your package manager. Make sure you remove any previously-installed nvidia drivers before you do this.
 
 ```bash
 # wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.26/NVIDIA-Linux-x86_64-375.26.run
@@ -126,7 +126,7 @@ Test that `nvidia-smi` works:
 
 #### Step 4: Install the CUDA and NVENC SDKs ####
 
-We need to download the current CUDA SDK, which we`ll use to build FFMPEG later. Go to https://developer.nvidia.com/cuda-downloads to download the appropriate runfile.
+We need to download the current CUDA SDK, which we`ll use to build FFMPEG later. Go to <https://developer.nvidia.com/cuda-downloads> to download the appropriate runfile.
 
 When you install the CUDA SDK, be sure **not** to install the driver again - you already have. Install the toolkit and the samples in the default locations.
 
@@ -142,7 +142,7 @@ We also need to copy the cuda.h file to our local includes to make it easier to 
 # cp /usr/local/cuda/include/cuda.h /usr/include/
 ```
 
-Next, download the NVENC SDK from the developer`s site: https://developer.nvidia.com/nvidia-video-codec-sdk. You will need to create an account to gain access to the most current version of the SDK. Once you have it, extract it to a development folder and move the header files to your local include directory:
+Next, download the NVENC SDK from the developer`s site: <https://developer.nvidia.com/nvidia-video-codec-sdk>. You will need to create an account to gain access to the most current version of the SDK. Once you have it, extract it to a development folder and move the header files to your local include directory:
 
 ```bash
 # mkdir ~/development
