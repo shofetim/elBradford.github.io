@@ -19,7 +19,7 @@ My daughter has a pet slug (just a little toy), so I decided to turn my pumpkin 
 
 Plugging it all together wasn't difficult, though it was a bit cluttered. Perhaps a case is in order for next time, as long as it can house all the components I need.
 
-Unfortunately I don't have a photo of it assembled, besides the video below, however here is the code that put it all together:
+Unfortunately I don't have a photo of it assembled, besides the video below, however [here is the code that put it all together](https://github.com/elBradford/snippets/blob/master/HalloweenSlugOLantern.ino):
 
 ```arduino
 #include <RBD_Timer.h>
@@ -98,3 +98,5 @@ void loop(){
 
 }
 ```
+
+[![Arduino Pumpkin Slug](https://i.ytimg.com/vi_webp/lGfjO_fyixk/maxresdefault.webp)](https://youtu.be/lGfjO_fyixk)

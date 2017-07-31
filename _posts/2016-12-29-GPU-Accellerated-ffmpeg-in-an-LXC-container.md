@@ -28,8 +28,10 @@ Since I already had purchased a GT 710 which, despite its naming convention, is 
 
 Emby came out with experimental GPU encoding support [as early as Januay 2015](https://emby.media/community/index.php?/topic/17078-some-great-happenings-around-the-community/?hl=gpu). So my mission was to 1) Get my containerized Emby server the ability to access the GPU and 2) get a copy of FFMPEG that supports NVENC (Nvidia`s GPU-accellerated encoding engine).
 
+
 # Part 1 #
 ## Pass GPU to LXC Container ##
+
 In order to get a LXC container to have access to the NVidia GPU, you need to pass the device through to the container in the lxc config file (more on that later). But in order to do that, the devices need to appear in the ``/dev/`` folder, specificially ``/dev/nvidia0` and its brothers.
 
 My breakthrough came when I found [this guide](http://sqream.com/setting-cuda-linux-containers-2/) on giving CUDA access to Linux containers. You have a choice - you can download the drivers from a repository (in my case nvidia proprietary driver version `367.48` was available from jessie-backports). I tried this - several locations suggested it, and it`s an easier solution if it works. In addition, 367 was recent enough to give my hardware NVENC, the holy grail (at least for me).
@@ -46,16 +48,20 @@ I spun up a new Debian 8.6-based container, made it as similar to the old except
 
 Voila, I was able to see the devices and `nvidia-smi` could query the device successfully. One down, one to go.
 
+
 # Part 2 #
 ## Get a NVENC-compatible FFMPEG ##
+
 I tried the most obvious approach, which is using a static build of FFMPEG for my architecture. Emby devs suggested that other users use [these builds](https://www.johnvansickle.com/ffmpeg/), so I grabbed it too. A quick `ffmpeg -encoders | grep nvenc` showed that the they were built with NVENC. I tried it out, and every time I tried using the h264_nvenc encoder it would segmentation fault.
 
 I decided to try and build it myself, and I used two sources - one, [an older pdf guide](http://developer.download.nvidia.com/compute/redist/ffmpeg/1511-patch/FFMPEG-with-NVIDIA-Acceleration-on-Ubuntu_UG_v01.pdf) from Nvidia, and the second was Nvidia`s [ffmpeg page](https://developer.nvidia.com/ffmpeg). They were both valuable, but I leaned more heavily on the newer web page for my final product.
 
 After a few false starts, I got a working build that was able to utilize the GPU to encode video. After some more work turning my ffmpeg binary into a more multi-purpose encoder (setting the appropriate flags), it was finished. After a trial run, it worked flawlessly.
 
+
 # Part 3 #
 ## How to do all the stuff ##
+
 **Step 0: Requirements**
 Start with a working LXC host with an Nvidia-based GPU that supports NVENC
 
@@ -178,6 +184,7 @@ That's it! Take FFMPEG for a spin - try some encodes and see how fast it goes. I
 ```bash
 # make install
 ```
+
 
 # Impressions #
 ## The Good ##
