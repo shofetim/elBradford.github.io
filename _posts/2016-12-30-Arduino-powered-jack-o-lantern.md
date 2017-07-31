@@ -1,6 +1,6 @@
 ---
 published: true
-title: 'Arduino-Powered Jack'o'lantern'
+title: 'Arduino-Powered Jack o\' lantern'
 permalink: /2016/arduino-jack-o-lantern
 author: bradford
 layout: post
