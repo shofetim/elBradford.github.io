@@ -7,9 +7,9 @@ guid: /2009/04/19/theme-pack-for-windows-7-life-of-jesus-christ/
 ---
 I hope you enjoy this collection of HD wallpapers depicting the life of Jesus Christ. I've made them available as a Windows 7 ([see note below][1]) and Windows 8 Themepack, as well as a zip file for use on other systems (such as Linux, Mac, etc).
 
--> # [Click here to download Themepack v9 (OneDrive)](https://onedrive.live.com/redir?resid=e2dd382621113cf8!174944&authkey=!AL5xD1HRKjDbTk8&ithint=file%2cdeskthemepack "Compatible with Windows 7, Windows 8, Windows 8.1") <-
+# [Click here to download Themepack v9 (OneDrive)](https://onedrive.live.com/redir?resid=e2dd382621113cf8!174944&authkey=!AL5xD1HRKjDbTk8&ithint=file%2cdeskthemepack "Compatible with Windows 7, Windows 8, Windows 8.1")
 
--> # [CLICK HERE TO DOWNLOAD ALL WALLPAPERS (ONEDRIVE)](https://onedrive.live.com/redir?resid=e2dd382621113cf8!174945&authkey=!AGvCK4ki0QMrAdg&ithint=file%2czip "All wallpapers are contained in a zip file. Compatible with all systems.") <-
+# [CLICK HERE TO DOWNLOAD ALL WALLPAPERS (ONEDRIVE)](https://onedrive.live.com/redir?resid=e2dd382621113cf8!174945&authkey=!AGvCK4ki0QMrAdg&ithint=file%2czip "All wallpapers are contained in a zip file. Compatible with all systems.")
 
 If you have any sources for high resolution images of the life of our Savior, or if you would just like to say thanks, please leave a comment!
 
@@ -27,23 +27,32 @@ Windows 8 creates a *.deskthemepack* file, which Windows 7 cannot open. If you 
 
 ##### Changelog:
 
-**v9:** 25 May 2015 - As part of my Every 6 project, I have been searching out more Gospel artwork. I've discovered a bunch of new pieces that I love, including many by Henry Ossawa Tanner and my long-time favorite, Carl Bloch. Here are some of my favorites from the new additions.
+**v9:** 25 May 2015
+:As part of my Every 6 project, I have been searching out more Gospel artwork. I've discovered a bunch of new pieces that I love, including many by Henry Ossawa Tanner and my long-time favorite, Carl Bloch. Here are some of my favorites from the new additions.
 
-**v8:** 13 Oct 2014 - I have updated some of the lower-resolution or cropped images, in addition to adding some images that the [LDS Gospel Media Library](https://www.lds.org/media-library/images/gospel-art/new-testament?lang=eng&start=1&end=40&order=) has added.
+**v8** 13 Oct 2014
+:I have updated some of the lower-resolution or cropped images, in addition to adding some images that the [LDS Gospel Media Library](https://www.lds.org/media-library/images/gospel-art/new-testament?lang=eng&start=1&end=40&order=) has added.
 
-**v7:** 6 Apr 2014 - I've found a higher resolution image of Franz Schwarz's Agony in the Garden and have the images no longer being cropped.
+**v7:** 6 Apr 2014
+:I've found a higher resolution image of Franz Schwarz's Agony in the Garden and have the images no longer being cropped.
 
-**v6:** 18 Jan 2014 - Inspired by a recent viewing of Brigham Young University's *Sacred Gifts* exhibit, I've added many new images to the Themepack. I've added 21 more images (now totaling 55!), as well as updating some of the older images.  Some of the additions were found at the [Statens Museum for Kunst online gallery](http://www.smk.dk/en/), as well as from BYU Religious Studies Center *Behold the Lamb of God* Exhibit.
+**v6:** 18 Jan 2014
+:Inspired by a recent viewing of Brigham Young University's *Sacred Gifts* exhibit, I've added many new images to the Themepack. I've added 21 more images (now totaling 55!), as well as updating some of the older images.  Some of the additions were found at the [Statens Museum for Kunst online gallery](http://www.smk.dk/en/), as well as from BYU Religious Studies Center *Behold the Lamb of God* Exhibit.
 
-**v5:** 6 Oct 2013 - I've added six more high resolution images (for a total of 34). Many of them were found on the [National Gallery of Art website](http://www.nga.gov), which allows high resolution (3000px) downloads of art.
+**v5:** 6 Oct 2013
+:I've added six more high resolution images (for a total of 34). Many of them were found on the [National Gallery of Art website](http://www.nga.gov), which allows high resolution (3000px) downloads of art.
 
-**v4:** 2 Jan 2011 - Big update! I added 14 new images for a total of 28. The additions include one from Caravaggio, several from Carl Bloch, and many others. In this update I decided to not crop some because cropping would have taken away much of the image. The background color is black. I also changed the window border color from light gray to white.
+**v4:** 2 Jan 2011
+:Big update! I added 14 new images for a total of 28. The additions include one from Caravaggio, several from Carl Bloch, and many others. In this update I decided to not crop some because cropping would have taken away much of the image. The background color is black. I also changed the window border color from light gray to white.
 
-**v3:** 5 Sep 2010 - Added two new images.
+**v3:** 5 Sep 2010
+:Added two new images.
 
-**v2:** 17 Jun 2009 - Fixed one of the photos.
+**v2:** 17 Jun 2009
+:Fixed one of the photos.
 
-**v1:** 19 Apr 2009 - Initial release, mainly using images from the [Gospel Art Book(]https://www.lds.org/media-library/images?lang=eng&_r=1) made available by the [LDS church](http://mormon.org).
+**v1:** 19 Apr 2009
+:Initial release, mainly using images from the [Gospel Art Book(]https://www.lds.org/media-library/images?lang=eng&_r=1) made available by the [LDS church](http://mormon.org).
 
  [1]: #windows7
  [2]: http://www.mormon.org/
