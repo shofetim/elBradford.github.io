@@ -12,13 +12,13 @@ format: gallery
 I recently discovered Gustave Doré&#8217;s art and love his style. There&#8217;s something about late 19th century art that I love.<!--more-->
 
 
-[![{{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Flower_Sellers_of_London_-_Google_Art_Project-621x1024.jpg]]({{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Flower_Sellers_of_London_-_Google_Art_Project.jpg)
-_Flower Sellers of London, Gustave Doré_
+[![Flower Sellers of London, Gustave Doré]({{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Flower_Sellers_of_London_-_Google_Art_Project-621x1024.jpg)]({{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Flower_Sellers_of_London_-_Google_Art_Project.jpg)
+*Flower Sellers of London, Gustave Doré*
 
 
-[![{{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Scottish_Highlands_-_Google_Art_Project-1024x607.jpg]]({{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Scottish_Highlands_-_Google_Art_Project.jpg)
-_Scottish Highlands, Gustave Doré_
+[![Scottish Highlands, Gustave Doré]({{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Scottish_Highlands_-_Google_Art_Project-1024x607.jpg)]({{site.img-dir-posts}}/archive/2015/03/Gustave_Doré_-_Scottish_Highlands_-_Google_Art_Project.jpg)
+*Scottish Highlands, Gustave Doré*
 
 
-[![{{site.img-dir-posts}}/archive/2015/03/Le_Christ_quittant_le_prétoire-Gustave_Doré_3-1024x705.jpg]]({{site.img-dir-posts}}/archive/2015/03/Le_Christ_quittant_le_prétoire-Gustave_Doré_3.jpg)
-_Le Christ Quittant le Prétoire, Gustave Doré_
+[![Le Christ Quittant le Prétoire, Gustave Doré]({{site.img-dir-posts}}/archive/2015/03/Le_Christ_quittant_le_prétoire-Gustave_Doré_3-1024x705.jpg)]({{site.img-dir-posts}}/archive/2015/03/Le_Christ_quittant_le_prétoire-Gustave_Doré_3.jpg)
+*Le Christ Quittant le Prétoire, Gustave Doré*
