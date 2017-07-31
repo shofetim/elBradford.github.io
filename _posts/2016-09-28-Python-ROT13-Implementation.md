@@ -35,8 +35,7 @@ The second problem I encountered was encoding. Python 3.x uses unicode encoding,
 ### ROT13 Final Product
 [Source on GitHub](https://github.com/elBradford/snippets/blob/master/rot13.py)
 
-''' python
-
+~~~python
 import argparse
 import sys
 
@@ -76,16 +75,14 @@ for c in input:
 # warn user if characters couldn't be encrypted
 if parseflag:
     sys.stderr.write("Some characters could not be encrypted\n\n")
-
-'''
+~~~
 
 What if we want to encode a binary file with a Caesar Cipher? Great question! Base64 would be a great fit with this and would allow us to take any input data (binary, unicode, anything) and perform our rotational encryption algorithm on it. The complete product is posted below.
 
 ### ROT64 Final Product
 [Source on GitHub]()
 
-''' python
-
+~~~python
 import argparse
 import sys
 import base64
@@ -128,5 +125,4 @@ if args.encode:
 else:
     inputrot = rot(args.input.read())
     print(base64.standard_b64decode(inputrot).decode(), end="")
-
-'''
+~~~
