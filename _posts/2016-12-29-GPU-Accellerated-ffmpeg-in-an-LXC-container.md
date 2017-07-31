@@ -54,9 +54,9 @@ Voila, I was able to see the devices and `nvidia-smi` could query the device suc
 
 
 
-# Part 2 #
+## Part 2 ##
 
-## Get a NVENC-compatible FFMPEG ##
+### Get a NVENC-compatible FFMPEG ###
 
 I tried the most obvious approach, which is using a static build of FFMPEG for my architecture. Emby devs suggested that other users use [these builds](https://www.johnvansickle.com/ffmpeg/), so I grabbed it too. A quick `ffmpeg -encoders | grep nvenc` showed that the they were built with NVENC. I tried it out, and every time I tried using the h264_nvenc encoder it would segmentation fault.
 
@@ -67,11 +67,12 @@ After a few false starts, I got a working build that was able to utilize the GPU
 
 
 
-# Part 3 #
+## Part 3 ##
 
-## How to do all the stuff ##
+### How to do all the stuff ###
 
-**Step 0: Requirements**
+#### Step 0: Requirements ####
+
 Start with a working LXC host with an Nvidia-based GPU that supports NVENC
 
 **Step 1: Download and install Nvidia proprietary drivers on the host**
@@ -196,13 +197,13 @@ That's it! Take FFMPEG for a spin - try some encodes and see how fast it goes. I
 
 
 
-# Impressions #
+## Impressions ##
 
-## The Good ##
+### The Good ###
 
 I told Emby to use the system-installed ffmpeg and to use NVENC for transcoding. I was _immediately_ blown away at how fast the transcoded video stream started, and how quickly it proceeded. I had a 23Mbit source file that I forced to transcode to 1Mbit, and later at 21Mbit. I didn`t get any benchmarks, but whereas before I was getting less than realtime transcoding, emby had transcoded an entire 45 minute h264 encode in about 5-10 minutes. VERY FAST.
 
-## The Bad ##
+### The Bad ###
 
 Frankly, the NVENC encoded video looks much worse than the original. Even when it was transcoding to 21Mbit, it had a lot of compression artifacts, and the beautiful grain of the source was entirely lost. It was apparent on my top-end 4k TV and on my low end 1080p LCD.
 
