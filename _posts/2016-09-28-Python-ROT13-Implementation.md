@@ -70,17 +70,18 @@ for c in input:
         charnumber -= 97
         print(chr((charnumber + args.rot)%26 + 97), end="")
     else:
+        print(c, end="")
         parseflag = True
 
 # warn user if characters couldn't be encrypted
 if parseflag:
-    sys.stderr.write("Some characters could not be encrypted\n\n")
+    sys.stderr.write("Some characters could not be encrypted.\n\n")
 ~~~
 
 What if we want to encode a binary file with a Caesar Cipher? Great question! Base64 would be a great fit with this and would allow us to take any input data (binary, unicode, anything) and perform our rotational encryption algorithm on it. The complete product is posted below.
 
 ### ROT64 Final Product
-[Source on GitHub]()
+[Source on GitHub](https://github.com/elBradford/snippets/blob/master/rot64.py)
 
 ~~~python
 import argparse
@@ -107,15 +108,14 @@ if (args.decode):
 
 # let's build a dictionary (and its inverse) of base64 characters plus '='
 base64chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
-lookup = dict(enumerate(base64chars))
-invlookup = {v:k for k,v in lookup.items()}
+lup = tuple((base64chars))
 
 # perform our rotation
 def rot(string):
     rotated = ""
     for c in string:
-        cloc = invlookup[c]
-        rotated += lookup[(cloc + args.rot)%len(base64chars)]
+        cloc = lup.index(c)
+        rotated += lup[(cloc + args.rot)%len(lup)]
     return rotated
 
 # encode stdin or file as base64
