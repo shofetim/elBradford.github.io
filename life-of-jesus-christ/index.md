@@ -1,10 +1,14 @@
 ---
-id: 279
-title: 'Life of Jesus Christ: Wallpapers and Themepack'
-author: bradford
 layout: page
-guid: /2009/04/19/theme-pack-for-windows-7-life-of-jesus-christ/
+title: Life of Jesus Christ Gallery
+modified: 2016-01-19
+excerpt: "Instructions on how to install and customize the Jekyll theme Minimal Mistakes."
+image:
+  feature: sample-image-3.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
+
 I hope you enjoy this collection of HD wallpapers depicting the life of Jesus Christ. I've made them available as a Windows 7 ([see note below][1]) and Windows 8 Themepack, as well as a zip file for use on other systems (such as Linux, Mac, etc).
 
 # [Click here to download Themepack v9 (OneDrive)](https://onedrive.live.com/redir?resid=e2dd382621113cf8!174944&authkey=!AL5xD1HRKjDbTk8&ithint=file%2cdeskthemepack "Compatible with Windows 7, Windows 8, Windows 8.1")
