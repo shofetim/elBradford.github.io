@@ -73,7 +73,19 @@ After a few false starts, I got a working build that was able to utilize the GPU
 
 #### Step 0: Requirements ####
 
-Start with a working LXC host with an Nvidia-based GPU that supports NVENC
+Start with a working LXC host that has the kernel headers installed, with an Nvidia-based GPU that supports NVENC.
+
+I use Proxmox, so the command to install the kernel headers is:
+
+```bash
+#  apt install pve-headers-$(uname -r)
+```
+
+If you're using Debian or Ubuntu, this command should install them:
+
+```bash
+#  apt install linux-headers-$(uname -r)
+```
 
 #### Step 1: Download and install Nvidia proprietary drivers on the host ####
 
