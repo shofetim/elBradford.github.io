@@ -33,7 +33,7 @@ h1 {
     font-weight: bold;
     letter-spacing: 0.1em;
     font-size: 4em;
-    font-family: Arial;
+    font-family: "ElroNet";
     margin: -10px 0;
 }
 h3 {
@@ -118,7 +118,7 @@ a:hover {
 .description {
     display: inline-block;
     color: white;
-    font-family: Arial;
+    font-family: "ElroNet";
     margin-left: 40px;
 }
 .content {
