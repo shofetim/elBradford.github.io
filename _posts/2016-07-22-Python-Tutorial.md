@@ -10,7 +10,9 @@ categories:
 tags:
   - Python
 ---
-_This is a translation from a 90 minute class I held on the basics of Python scripting. A download link for the PowerPoint .pptx file is at the bottom of the article._<!--more-->
+_This is a translation from a 90 minute class I held on the basics of Python scripting._<!--more-->
+_A download link for the PowerPoint .pptx file is at the bottom of the article._
+
 
 ![Picture1.jpg]({{site.img-dir-posts}}/Picture1.jpg)
 
