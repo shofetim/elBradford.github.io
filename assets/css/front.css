@@ -1,7 +1,11 @@
+@font-face {
+    font-family: "ElroNet";
+    src: url(../fonts/ElroNet-Monospace.woff);
+}
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "ElroNet",Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
