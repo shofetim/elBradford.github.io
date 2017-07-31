@@ -182,7 +182,91 @@ If statement:
 
 How does Python know when a conditional action ends?
 
+If statement:
+
+	swallow = “european"
+	if swallow == “african":
+    	print(“It could grip it by the husk.”)
+    elif swallow == “european”:
+    	print(“They could carry it on a line.”)
+    else:
+    	print(“Are you suggesting coconuts migrate?”)
 
 
+
+## Exercise 3
+### ≈10 Minutes
+
+Edit `riddle.py` to perform the following:
+
+- Prompt for the user to select a riddle by typing a 1 or 2
+- Based on the input, display a riddle
+- Output an error if input either than “1” or “2” is entered
+
+### Solution
+
+	number = input("Which riddle would you like to hear? Enter 1 or 2: ")
+	if number == “1”:
+		print(“Why do witches burn? Because they’re made of wood!")
+	elif number == “2”:
+		print(“What is your favorite color? I don’t know!")
+	else:
+		print(“Ni!")
+
+
+
+## Loops
+
+### While Loop
+
+	while [condition]:
+		[loop body]
+
+The loop will execute the loop body until the condition is no longer true.
+
+	limbs = 4
+	print(“None shall pass.”)
+	while limbs > 0:
+		print(“C’mon ya pansy!”)
+		print(limbs, “limbs left”)
+		limbs -= 1 
+	print(limbs, “limbs left”)
+	print(“Alright, we’ll call it a draw.”)
+
+What does the above loop do?
+
+
+
+## Exercise 4
+### ≈10 Minutes
+
+Edit `riddle.py` to perform the following:
+
+Ask the user a riddle. Implement a loop that continues to loop until the user provides the right answer.
+
+Bonus: make the input case-insensitive [string.lower()]
+
+
+
+## Functions
+
+Let’s create our own function, `print_riddle`, in our `riddle.py`: 
+	
+	def print_riddle():
+		print(“Why do witches burn?”)
+		print(“Press enter for the answer”)
+		print(“Because they’re made of wood.”)
+
+	print_riddle()
+
+How does Python know when the function begins? Ends?
+
+## Python Resources
+
+Python.org Beginner's Guide: https://wiki.python.org/moin/BeginnersGuide
+Python.org Beginner's Guide for Programmers: https://wiki.python.org/moin/BeginnersGuide/Programmers
+The Hitchhiker's Guide to Python: http://docs.python-guide.org/en/latest/
+Safari Books Online (5712 results for 'Python'): http://techbus.safaribooksonline.com/search?q=python
+Python Documentation: https://docs.python.org/
 
 
