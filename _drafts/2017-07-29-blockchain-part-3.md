@@ -4,5 +4,7 @@
 
 # Privledge Overview
 
+**Privledge** is a proof-of-concept private (permissioned) distributed ledger used for public key management written in python.
+
 # Demo
 

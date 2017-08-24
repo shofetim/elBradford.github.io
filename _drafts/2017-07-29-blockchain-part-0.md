@@ -1,24 +1,23 @@
 # Part 0: Blockchain Background Reading
 
-![So Hot Right Now](/assets/images/posts/2017/sohotrightnow.jpg)
+<!-- ![So Hot Right Now](/assets/images/posts/2017/sohotrightnow.jpg)
+*Image credit: Zoolander* -->
 
 **So Hot Right Now**
 
 You may have heard of Blockchain technology - if you haven't, you likely have heard of Bitcoin. You may only know enough to be confused by it or to have your curiousity piqued. In any case, you're in the right place. If you're interested in my backbround, [view my about page](/about). Feel free to contact me in the comments below if you have any questions or if you spot an error below. 
 
-- [Blockchain: Past, Present, Future](#blockchain-past-present-future)
-    - [Part 0: Background](#part-0-background)
-    - [So Hot Right Now](#so-hot-right-now)
+- [Part 0: Blockchain Background Reading](#part-0-blockchain-background-reading)
 - [Types of Networks](#types-of-networks)
-        - [Centralized](#centralized)
-        - [Decentralized](#decentralized)
-        - [Distributed](#distributed)
+    - [Centralized](#centralized)
+    - [Decentralized](#decentralized)
+    - [Distributed](#distributed)
 - [How do you trust others in a trustless system?](#how-do-you-trust-others-in-a-trustless-system)
     - [Correspondence Chess](#correspondence-chess)
-        - [Chess Board State](#chess-board-state)
+    - [Chess Board State](#chess-board-state)
     - [Distributed Ledgers](#distributed-ledgers)
 
-# Types of Networks
+# Types of Networks 
 
 Let's go over a bit of background first - trust me, it will help out later on. Networks fall roughly in three categories:
 
@@ -26,7 +25,8 @@ Let's go over a bit of background first - trust me, it will help out later on. N
 * Decentralized
 * Distributed
 
-![Network Types](/assets/images/posts/2017/networktypes.png)
+<!-- ![Network Types](/assets/images/posts/2017/networktypes.png)
+*Image credit: Wikipedia* -->
 
 It's important to understand that we're not only talking about computer networks, although they make up nearly the entirety of what I talk about in this article. This taxonomy of networks applies to all networks, such as social, commercial, and political. I'll try to include non-computer network examples below.
 

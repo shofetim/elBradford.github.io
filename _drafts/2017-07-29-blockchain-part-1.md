@@ -48,14 +48,16 @@ fe7d0290395212c39e78ea24ba718911af16effa13b48d1f6c9d86e8355e0770
 
 This image pushes the point further:
 
-![hash example](/assets/images/posts/2017/hash.png)
+<!-- ![hash example](/assets/images/posts/2017/hash.png)
+*Image credit: Wikipedia* -->
 
 If you're not sure why you would even want a one-way function, [here are some applications of hashing](https://en.wikipedia.org/wiki/Cryptographic_hash_function#Applications).
 
 ## Public Key Cryptography
 The strength of the security of blockchain lies in its use of public key cryptography. It is also called assymetrical cryptography because it is comprised of _two_ keys - a public key and a private key. Both keys may be used to encrypt data, however they may only _decrypt_ data that was encrypted by its partner key. In other words, if you encrypt a message with a public key, only the private key may decrypt that message. In like manner, only the public key may decrypt messages that were encrypted by the private key. 
 
-![public key flowchart](/assets/images/posts/2017/publickey.png)
+<!-- ![public key flowchart](/assets/images/posts/2017/publickey.png)
+*Image credit: Wikipedia* -->
 
 This property of public key cryptography enables some very important security features that we rely on daily, whether we know it or not:
 
@@ -73,15 +75,17 @@ Detailed in the Bitcoin whitepaper, the blockchain is surprisingly simple.
 
 Like any ledger, Bitcoin is made up of __transactions__. Eve (Owner 1 in the image below) sends 5 BTC (bitcoins) to Bob (Owner 2). Eve simply creates a new transaction with the details (5 BTC), includes Bob's public key (this is considered his _address_), and signs the transaction with her private key. Since she is the only one who could be the author of that signature, and since she was the previous owner of that money, the transaction is considered valid. As long as Bob maintains control of his private key, he controls that money, since the private key is all that is needed to move the money to someone else. 
 
-![Bitcoin transactions](/assets/images/posts/2017/bitcoin_transactions.png)
+<!-- ![Bitcoin transactions](/assets/images/posts/2017/bitcoin_transactions.png)
+*Image credit: Satoshi Nakamoto* -->
 
 This system allows for a non-repudiable chain of events (a ledger) to be established. Is this enough for digital currency? Not yet! Tthere is no mechanism in place to ensure that Eve doesn't double spend her money. What if she sends the same 5 BTC to Alice? And then to a dozen other recipients? This is the problem of double-spending
 
-## Proof of Work
+## Proof-of-Work
 
-Nakamoto suggested a solution to the double spend problem by a proof-of-work network that serves to maintain the truth and _consensus_ of the state of the ledger by hashing a group of transactions at regular intervals. The transactions are collected into _blocks_ which are then hashed along with the previous block. This creates a chain of blocks that are cryptographically validated and are resistent to forgery - a blockchain.
+Nakamoto suggested a solution to the double spend problem by a proof-of-work (PoW) network that serves to maintain the truth and _consensus_ of the state of the ledger by hashing a group of transactions at regular intervals. The transactions are collected into _blocks_ which are then hashed along with the previous block. This creates a chain of blocks that are cryptographically validated and are resistent to forgery - a blockchain.
 
-![blockchain](/assets/images/posts/2017/blockchain.png)
+<!-- ![blockchain](/assets/images/posts/2017/blockchain.png)
+*Image credit: Satoshi Nakamoto* -->
 
 In essence, _miners_ on the proof-of-work network are competing to complete a block. A miner that is successful in mining a block gets a reward of some number of bitcoins plus transaction fees. Completing a block requires the following:
 1. Some number of transactions (Tx)
@@ -89,6 +93,9 @@ In essence, _miners_ on the proof-of-work network are competing to complete a bl
 1. A nonce that meets the current _difficulty target_
 
 \#3 is the core of the proof-of-work concept. [The difficulty target](https://en.bitcoin.it/wiki/Target) is a number wherein the hash of the block must be lower than or equal to for it to be accepted. As the difficulty target gets smaller it becomes more difficult to mine a block - and this number is adjusted to try and keep the block production to one every ten minutes. So, if there is an increase in miners competing for a block, the difficulty target is adjusted to keep the block production rate steady.
+
+<!-- ![proof of work](/assets/images/posts/2017/proof_of_work.png)
+*Image credit: John Kelsey, NIST* -->
 
 Consensus between miners and users is managed by the simple concept of accepting the longest legitimate chain of blocks. So if a miner computes a block it is immediately accepted by everyone else and all miners start working on a new block. A very important part of this proof-of-work system is that it makes it extremely difficult for Eve to double-spend. For her to double-spend she would have to sign the duplicate transactions at some point in the chain and then recompute the chain of transactions to make her illegitimate chain the longest. This is infeasable because it would require the majority of all mining power to be dedicated toward this goal - and even then it would only allow Eve to double-spend, not conjur bitcoins out of thin air. If she could muster that kind of compute power she would be much better off just using it to mine new bitcoins. 
 
