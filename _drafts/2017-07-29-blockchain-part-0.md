@@ -1,13 +1,13 @@
 # Part 0: Blockchain Background Reading
 
-<!-- ![So Hot Right Now](/assets/images/posts/2017/sohotrightnow.jpg)
-*Image credit: Zoolander* -->
+![So Hot Right Now](/assets/images/posts/2017/sohotrightnow.jpg)
+*Image credit: Zoolander*
 
 **So Hot Right Now**
 
-You may have heard of Blockchain technology - if you haven't, you likely have heard of Bitcoin. You may only know enough to be confused by it or to have your curiousity piqued. In any case, you're in the right place. If you're interested in my backbround, [view my about page](/about). Feel free to contact me in the comments below if you have any questions or if you spot an error below. 
+You may have heard of Blockchain technology - if you haven't, you likely have heard of Bitcoin. You may only know enough to be confused by it or to have your curiousity piqued. In any case, you're in the right place. If you're interested in my backbround, [view my about page](/about). Feel free to contact me in the comments below if you have any questions or if you spot an error. 
 
-- [Part 0: Blockchain Background Reading](#part-0-blockchain-background-reading)
+## Table of Contents
 - [Types of Networks](#types-of-networks)
     - [Centralized](#centralized)
     - [Decentralized](#decentralized)
@@ -17,7 +17,7 @@ You may have heard of Blockchain technology - if you haven't, you likely have he
     - [Chess Board State](#chess-board-state)
     - [Distributed Ledgers](#distributed-ledgers)
 
-# Types of Networks 
+# Types of Networks
 
 Let's go over a bit of background first - trust me, it will help out later on. Networks fall roughly in three categories:
 
@@ -25,8 +25,8 @@ Let's go over a bit of background first - trust me, it will help out later on. N
 * Decentralized
 * Distributed
 
-<!-- ![Network Types](/assets/images/posts/2017/networktypes.png)
-*Image credit: Wikipedia* -->
+![Network Types](/assets/images/posts/2017/networktypes.png)
+*Figure 1 - Network Types (Image credit: Wikipedia)*
 
 It's important to understand that we're not only talking about computer networks, although they make up nearly the entirety of what I talk about in this article. This taxonomy of networks applies to all networks, such as social, commercial, and political. I'll try to include non-computer network examples below.
 
@@ -35,7 +35,7 @@ It's important to understand that we're not only talking about computer networks
 
 ## Centralized
 
-Although not a good candidate for blockchain protocols, let's understand what a centralized network is to provide some context for the other two network types. Centralized networks have [two primary characteristics](https://gnunet.org/centralized-dns):
+Figure 1-A: Although not a good candidate for blockchain protocols, let's understand what a centralized network is to provide some context for the other two network types. Centralized networks have [two primary characteristics](https://gnunet.org/centralized-dns):
 1. They consist of a single node (single point of failure)
 1. This node is under the control of a single entity
 
@@ -55,7 +55,7 @@ Although not a good candidate for blockchain protocols, let's understand what a 
 
 
 ### Disadvantages:
-* Resiliancy to
+* Vulnerable to
     * Attack (DDoS, etc)
     * Traffic Spikes
 
@@ -64,18 +64,19 @@ Although not a good candidate for blockchain protocols, let's understand what a 
 
 ## Decentralized
 
-It is possible for blockchain protocols to support decentralized networks, at least in part (as validators), however this is not typical. Decentralized networks have two primary characteristics:
+Figure 1-B: It is possible for blockchain protocols to support decentralized networks, at least in part (as validators), however this is not typical. Decentralized networks have two primary characteristics:
 1. They consist of multiple nodes
 1. Each node is under the control of the same entity
 
 
 ### Examples:
-* Many Internet services
-* Websites (many)
+* Most Internet services
+* Websites
 * Content Delivery Networks (CDN)
 * Load Balancers
 * DNS
-* Republic (Multiple governing representatives under the same government)
+* Oligarchy
+* Representative Government (eg Republic)
 
 
 ### Advantages
@@ -94,7 +95,7 @@ It is possible for blockchain protocols to support decentralized networks, at le
 
 ## Distributed
 
-Blockchains are considered a distributed ledger or distributed database. A blockchain protocol (wholly or in part) comprises a distributed network. Distributed networks have two primary characteristics:
+Figure 1-C: Blockchains are considered a distributed ledger or distributed database. A blockchain protocol (wholly or in part) comprises a distributed network. Distributed networks have two primary characteristics:
 1. They consist of many discrete nodes
 1. Each node may be under the control of any arbitrary entity
 
@@ -104,11 +105,12 @@ Blockchains are considered a distributed ledger or distributed database. A block
 * Bittorrent
 * Blockchain
 * TOR
+* Democracy (consensus is determined by majority of individuals)
 * Anarchy*
 * Correspondence Chess?? 
 
 ### Advantages
-* Extremely resilient
+* Very resistent to censorship
 * Trustless
 
 ### Disadvantages
@@ -125,6 +127,7 @@ This important and difficult question didn't have a good answer for many years. 
 
 Consider an Analogy:
 
+![Chess Pieces](/assets/images/posts/2017/chess_pieces.png)
 
 ## Correspondence Chess
 
@@ -149,12 +152,12 @@ The game is composed of the following parts:
 1. The starting positions of the board (immutable)
 1. The sequence of messages (one for each move)
 
-The state of the game at time `t` is represented by every message, in order, up until time `t`. In other words, __If we agree on history, we agree on the present state of the game.__ That history is represented by what is called a _distributed ledger_.
+The state of the game at time `t` is represented by every message, in order, up until time `t`. In other words, __If we agree on the history of moves, we agree on the present state of the game.__ That history is represented by what is called a _distributed ledger_.
 
 ## Distributed Ledgers
 
 I have been primarily using the word blockchain, however now that we understand what a distributed ledger represents, I will use that term as well. For the purposes of this article they are synonymous.
 
-Just as the Correspondence Chess game allows mutually-distrusting players agree on the state of the game, a distributed ledger allows mutually-distrusting users to agree on the state of the distributed system. That's how a distributed ledger (such as blockchain) inspires confidence in a trustless domain.
+Just as the Correspondence Chess game allows mutually-distrusting players to agree on the state of the game, a distributed ledger allows mutually-distrusting users to agree on the state of the distributed system. That's how a distributed ledger (such as blockchain) inspires confidence among untrusting and anonymous nodes.
 
 Continue on to the meat of the series, [Part 1, Blockchain Past]({% post_url 2017-07-29-blockchain-part-1.md})

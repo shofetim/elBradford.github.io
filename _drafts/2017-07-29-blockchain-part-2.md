@@ -2,28 +2,33 @@
 
 This is a continuation from [Part 1]({% post_url 2017-07-29-blockchain-part-1.md})
 
-Now let's talk about the state of the blockchain now, circa 2017. How has it changed since it was first used in 2009?
+Now let's talk about the state of blockchain technologies now, circa 2017. How has it changed since it was first used in 2009?
 
 # Evolution of Bitcoin
 
-Since Bitcoin was launched in early 2009 it has grown immensely. It is now a global financial force that is disrupting markets in ways few could have anticipated. While there have been major changes to Bitcoin since it was launched, its blockchain remains very much the same: an unbroken link of transaction blocks. That chain has grown to exceed 100GB. As its popularity increases, so does it use and the number of transactions grows exponentially. Most proposals to increase its scalability have focused on increasing the block size.
+Since Bitcoin was launched in early 2009 it has grown immensely. It is now disrupting financial markets and inspiring startups to follow suit and leap into blockchain technologies. 
 
-<!-- ![bitcoin transaction growth](/assets/images/posts/2017/transactions_31JUL.svg)
-*Image credit: [blockchain.info](blockchain.info) as of 29 July 2017* -->
+While there have been major changes to Bitcoin since it was launched, its blockchain remains the same unbroken link of transactions from the genesis block. That chain is now more than 100GB and it's still growing - even faster as the popularity of Bitcoin increases. This overhead will have to be addressed in the near future. 
+
+Since the Bitcoin source code is open, it's possible to fork the code base and change it to create an 'altcoin'. In fact, many have done this and have varying levels of support and valuation. The valuation of cryptocurrency is an interesting study and certainly keeps a lot of people busy guessing - and has made some of them very wealthy. 
+
+
 
 ## Ethereum
 
-In one of the first steps of a blockchain moving beyond cryptocurrency, [Ethereum](https://en.wikipedia.org/wiki/Ethereum) launched a platform in 2015 that supported, in addition to cryptocurrency, smart contracts. What are smart contracts?
+![Ethereum](/assets/images/posts/2017/ethereum.png)
+
+For some time blockchains were primarily proof of work cryptocurrencies. One of the first steps of a blockchain moving beyond this was [Ethereum](https://en.wikipedia.org/wiki/Ethereum) in 2015, when Ethereum launched a platform that supported, in addition to cryptocurrency, smart contracts.
 
 ### Smart Contracts
 
-Consider a traditional, legally binding contract. It's useful to review the definition of a contract, which [per Webster](https://www.merriam-webster.com/dictionary/contract), is:
+Smart contracts take traditional contracts and make them a part of a distributed ledger. First, let's consider a traditional, legally binding contract. It's useful to review the definition of a contract, which [per Webster 1828](http://webstersdictionary1828.com/Dictionary/contract), is:
 
-> A binding agreement between two or more persons or parties; *especially*:  one legally enforceable
+> An agreement or covenant between two or more persons, in which each party binds himself to do or forbear some act, and each acquires a right to what the other promises
 
-How about an example? Let's say Alice would like to contract with Eve to perform yardwork. The terms of the contract are that Alice weeds 100 dandelions. Upon completion of that task, Eve is contracted to pay Alice $20. The contract further stipulates that Alice may weed additional dandelions and be paid $.10 each. Finally, Eve's neighbor Bob is required to validate the number of dandelions picked. In short:
+The enforcement of a contract is typically done through the law. Let's say Alice would like to contract with Eve to perform yardwork. The terms of the contract are that Alice weeds 100 dandelions. Upon completion of that task, Eve is contracted to pay Alice $20. The contract further stipulates that Alice may weed additional dandelions and be paid $.10 each. Finally, Eve's neighbor Bob is named as a mediator to validate the number of dandelions picked if a dispute arises. 
 
-**Contract Terms**
+Alice begins pulling dandelions from Eve's yard and eventually finishes, having pulled 150 dandelions. Per the contract Alice is due $25, however Eve only pays her $10. At this point the contract has been broken and Alice may bring in Bob as mediator and possibly pursue legal action against Eve.
 
 |Party|Role|
 |-----|----|
@@ -31,14 +36,25 @@ How about an example? Let's say Alice would like to contract with Eve to perform
 |Eve  |Pay agreed rate of $.20 per dandelion up to 100, $.10 thereafter|
 |Bob  |Arbitrate payment|
 
-Alice begins pulling dandelions from Eve's yard and eventually finishes, having pulled 150 dandelions. Bob validates this number. Per the contract she is due $25, however Eve only pays her $10. At this point the contract has been broken and Alice may pursue legal action against Eve - typically an expensive and long process under the law.
+Smart contracts are protocols that allow a contract to be computerized in a way that they are automatically facilitated, verified, and enforced. Consider the example above as a smart contract instead. The terms are the same, but instead of being paid $20 for 100 and $.10 each thereafter, Eve promises to pay 100 ETH and .1 ETH each thereafter, ETH being the cryptocurrency of the Ethereum blockchain. The contract is included in the blockchain with the original conditions. Once both Alice and Eve agree on the number of dandelions picked, the smart contract would automatically execute and Alice would be given her 25 ETH. Bob may still play a role as a third party, he simply needs to be written into the smart contract. Furthermore, smart contracts allow this sort of interaction between anonymous and untrusted parties.
 
-Smart contracts are protocols that allow a contract to be computerized in a way that they are automatically facilitated, verified, and enforced. Consider the example above as a smart contract instead. The terms are the same, but instead of being paid $20 for 100 and $.10 each thereafter, Eve promises to pay 100 ETH and .1 ETH each thereafter, ETH being the cryptocurrency of the Ethereum blockchain. The contract is included in the blockchain with the original conditions. Once Bob validates the number of dandelions picked, the smart contract would automatically execute and Alice would be given her 25 ETH. Furthermore, smart contracts allow this sort of interaction between anonymous and untrusted parties.
+![Smart contract](/assets/images/posts/2017/smart-contract.png)
+*Figure 1 - Smart Contract Example for Insurance*
 
 The below image generalized well how a smart contract might live on a blockchain (shared, replicated ledger).
 
 <!-- ![smart contract](/assets/images/posts/2017/smart_contract.png)
 *Image credit: Jo Lang / R3 CEV* -->
+
+The Ethereum Project made an interesting decision to further expand smart contracts - [Turing completeness](https://en.wikipedia.org/wiki/Turing_completeness). This extension to smart contracts makes the Ethereum blockchain capable of performing arbitrary computations. This became the [Ethereum Virtual Machine](https://en.wikipedia.org/wiki/Ethereum#Ethereum_Virtual_Machine). 
+
+There is incredible potential in , which we will discuss later. However, some of the proposed use cases for smart contracts [have been shown to be infeasable](https://www.coindesk.com/three-smart-contract-misconceptions/). Smart contracts have limitations, and it's important to understand what place they might have in future blockchain technology, or your own organization. 
+
+Additionally, blockchain virtual machines have a huge amount of overhead when executing instructions - porting Doom to the Ethereum Virtual Machine is probably a futile effort.
+
+Smart contracts are computer code. Computer code may have flaws, and arbitrary code will have arbitrary flaws. It's only a matter of time until smart contracts are executed erroneously using a vulnerability in the smart contract code. 
+
+
 
 ### Beyond Smart Contracts
 
