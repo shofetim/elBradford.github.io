@@ -112,6 +112,7 @@ We can initialize a ledger with the `init` command, followed by one of the follo
 * A base58 encoded RSA public key string
 * A path to a public key on the local filesystem
 * `gen`, which will generate a public/private RSA key pair. If you also provide a path, it will save the keys to the local filesystem.
+
 ```
 > init gen
 
@@ -123,6 +124,7 @@ root>
 #### Joining a Ledger
 
 If we would like to join an existing ledger, we use the `discover` command to search our local subnet for available ledgers, or `discover <ip>` to query a specific ip address:
+
 ```
 > discover
 Found 2 available ledgers
@@ -132,6 +134,7 @@ Found 2 available ledgers
 ```
 
 If we see a ledger we would like to join, we use the `join` command, followed by the number of the item provided by the `list` command:
+
 ```
 > join 1
 Joined ledger 19991b9288c93cb41a6e042d040383763912fd03e0f6b5c717b42965c0b99a7e
@@ -139,6 +142,7 @@ Joined ledger 19991b9288c93cb41a6e042d040383763912fd03e0f6b5c717b42965c0b99a7e
 ```
 
 To see the status of our ledger, we can use the `status` command:
+
 ```
 > status
 You are a member of ledger 19991b9288c93cb41a6e042d040383763912fd03e0f6b5c717b42965c0b99a7e and connected to 1 peers.
@@ -163,6 +167,7 @@ Root of Trust:
 ```
 
 The `init` and `join` commands will join us to a ledger. If we would like to leave the ledger, `leave` will remove the ledger from our system and allow us to join another or generate our own:
+
 ```
 > leave
 Left ledger 19991b9288c93cb41a6e042d040383763912fd03e0f6b5c717b42965c0b99a7e

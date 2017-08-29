@@ -110,7 +110,7 @@ In essence, _miners_ on the proof-of-work network are competing to complete a bl
 \#3 is the core of the proof-of-work concept. [The difficulty target](https://en.bitcoin.it/wiki/Target) is a number wherein the hash of the block must be lower than or equal to for it to be accepted. As the difficulty target gets smaller it becomes more difficult to mine a block - and this number is adjusted to try and keep the block production to one every ten minutes. So, if there is an increase in miners competing for a block, the difficulty target is adjusted to keep the block production rate steady.
 
 ![proof of work](/assets/images/posts/2017/proof_of_work.png)
-*Image credit: John Kelsey, NIST*
+*Figure 5 - Proof of Work; Image credit: John Kelsey, NIST*
 
 Consensus between miners and users is managed by the simple concept of accepting the longest legitimate chain of blocks. So if a miner computes a block it is immediately accepted by everyone else and all miners start working on a new block. A very important part of this proof-of-work system is that it makes it extremely difficult for Eve to double-spend. For her to double-spend she would have to sign the duplicate transactions at some point in the chain and then recompute the chain of transactions to make her illegitimate chain the longest. This is infeasible because it would require the majority of all mining power to be dedicated toward this goal - and even then it would only allow Eve to double-spend, not conjure bitcoins out of thin air. If she could muster that kind of compute power she would be much better off just using it to mine new bitcoins. 
 
