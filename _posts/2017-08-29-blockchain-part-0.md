@@ -172,4 +172,4 @@ I have been primarily using the word blockchain, however now that we understand 
 
 Just as the Correspondence Chess game allows mutually-distrusting players to agree on the state of the game, a distributed ledger allows mutually-distrusting users to agree on the state of the distributed system. That's how a distributed ledger (such as blockchain) inspires confidence among untrusting and anonymous nodes.
 
-Continue on to the meat of the series, [Part 1, Blockchain Past]({% post_url 2017-07-29-blockchain-part-1.md %})
+Continue on to the meat of the series, [{{page.next.title}}]({{page.next.url}})
