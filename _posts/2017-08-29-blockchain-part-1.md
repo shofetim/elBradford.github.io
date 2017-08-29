@@ -1,5 +1,6 @@
 ---
 published: true
+date: '2017-08-29 13:00:00'
 title: 'Part 1: Blockchain Origin Story'
 permalink: /2017/blockchain-1
 author: bradford

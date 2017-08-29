@@ -1,5 +1,6 @@
 ---
 published: true
+date: '2017-08-29 15:00:00'
 title: 'Part 3: Privledge'
 permalink: /2017/blockchain-3
 author: bradford

@@ -1,5 +1,6 @@
 ---
 published: true
+date: '2017-08-29 14:00:00'
 title: 'Part 2: Blockchain Present and Beyond'
 permalink: /2017/blockchain-2
 author: bradford
