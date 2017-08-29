@@ -12,8 +12,7 @@ tags:
   - Blockchain
 comments: false
 ---
-
-This is the final part of my blockchain series, continued from [Part 2]({% post_url 2017-07-29-blockchain-part-2.md %})
+This is the final part of my blockchain series, continued from [{{page.previous.title}}]({{page.previous.url}})
 
 *The details in this article are pulled directly from the project [`README`](https://github.com/elBradford/privledge/blob/master/README.md). If you're interested in the project, go there to get the latest information.*
 
