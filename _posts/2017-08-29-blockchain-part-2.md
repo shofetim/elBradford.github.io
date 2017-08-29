@@ -12,7 +12,7 @@ tags:
 comments: true
 ---
 
-This is a continuation from [Part 1]({% post_url 2017-07-29-blockchain-part-1.md})
+This is a continuation from [Part 1]({% post_url 2017-07-29-blockchain-part-1.md %})
 
 Now let's talk about the state of blockchain technologies now, circa 2017. How has it changed since it was first used in 2009?
 
@@ -183,4 +183,4 @@ Of course the future is unknown and I'm no prophet. These are emergent applicati
 
 Now, let's see a little about the Privledge project, a blockchain proof of concept written in Python: 
 
-[Continue to Part 3: Privledge]({% post_url 2017-07-29-blockchain-part-3.md})
+[Continue to Part 3: Privledge]({% post_url 2017-07-29-blockchain-part-3.md %})

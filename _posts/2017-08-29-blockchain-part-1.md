@@ -12,7 +12,7 @@ tags:
 comments: true
 ---
  
-For background information on the _why_ behind blockchain and distributed ledgers, read Part 0 [found here]({% post_url 2017-07-29-blockchain-part-0.md}).
+For background information on the _why_ behind blockchain and distributed ledgers, read Part 0 [found here]({% post_url 2017-07-29-blockchain-part-0.md %}).
 
 A distributed digital currency was [one of the most sought-after applications for distributed systems](https://www.youtube.com/watch?v=Cod7U9IIz5U), however a huge problem stood in the way of its development: the [double spend problem](https://en.wikipedia.org/wiki/Double-spending). As the distributed ledger evolved and researches made progress in applied cryptography this obstacle was ultimately overcome.
 
@@ -115,4 +115,4 @@ Consensus between miners and users is managed by the simple concept of accepting
 
 There certainly is more to Bitcoin than just these, especially now since Bitcoin has evolved beyond Nakamoto's Bitcoin paper. But for now we will use this basic understanding of blockchain to help us understand the state of blockchains today. 
 
-Continue to [Part 2, Blockchain Present and Future]({% post_url 2017-07-29-blockchain-part-2.md})
+Continue to [Part 2, Blockchain Present and Future]({% post_url 2017-07-29-blockchain-part-2.md %})
