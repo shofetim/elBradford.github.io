@@ -1,5 +1,6 @@
 ---
 published: true
+date: '2017-08-29 12:00:00'
 title: 'Part 0: Blockchain Background Reading'
 permalink: /2017/blockchain-0
 author: bradford
