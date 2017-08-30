@@ -16,7 +16,12 @@ This is the final part of my blockchain series, continued from [{{page.previous.
 
 *The details in this article are pulled directly from the project [`README`](https://github.com/elBradford/privledge/blob/master/README.md). If you're interested in the project, go there to get the latest information.*
 
-![Privledge Screenshot](/assets/images/posts/2017/privledge_screenshot1.png)
+A [15:52 Video Demonstration](https://www.youtube.com/watch?v=ekFHV5K-Bog) is available on YouTube as well, and covers much of the content below:
+
+[![Privledge Demo Video](https://img.youtube.com/vi/ekFHV5K-Bog/0.jpg)](https://www.youtube.com/embed/ekFHV5K-Bog)
+
+
+---
 
 ## Table of Contents
 - [Privledge Overview](#privledge-overview)
@@ -31,6 +36,8 @@ This is the final part of my blockchain series, continued from [{{page.previous.
         - [Nitty Gritty: Protocols](#nitty-gritty-protocols)
         - [To Be Implemented](#to-be-implemented)
 - [Demo](#demo)
+
+---
 
 # Privledge Overview
 

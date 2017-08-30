@@ -19,6 +19,8 @@ comments: true
 
 You may have heard of Blockchain technology - if you haven't, you likely have heard of Bitcoin. You may only know enough to be confused by it or to have your curiosity piqued. In any case, you're in the right place. If you're interested in my background, [view my about page](/about). Feel free to contact me in the comments below if you have any questions or if you spot an error. 
 
+---
+
 ## Table of Contents
 - [Types of Networks](#types-of-networks)
     - [Centralized](#centralized)
@@ -28,6 +30,8 @@ You may have heard of Blockchain technology - if you haven't, you likely have he
     - [Correspondence Chess](#correspondence-chess)
     - [Chess Board State](#chess-board-state)
     - [Distributed Ledgers](#distributed-ledgers)
+
+---
 
 # Types of Networks
 

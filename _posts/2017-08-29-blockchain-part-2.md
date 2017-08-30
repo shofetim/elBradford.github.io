@@ -17,6 +17,8 @@ This is a continuation from [{{page.previous.title}}]({{page.previous.url}})
 
 Now let's talk about the state of blockchain technologies now, circa 2017. How has it changed since it was first used in 2009?
 
+---
+
 ## Table of Contents
 - [Evolution of Bitcoin](#evolution-of-bitcoin)
     - [Ethereum](#ethereum)
@@ -29,6 +31,8 @@ Now let's talk about the state of blockchain technologies now, circa 2017. How h
     - [Government](#government)
     - [Chain of Custody](#chain-of-custody)
     - [Hyperledger](#hyperledger)
+
+---
 
 # Evolution of Bitcoin
 Since Bitcoin was launched in early 2009 it has grown immensely. It is now disrupting financial markets and inspiring startups to follow suit and leap into blockchain technologies. 

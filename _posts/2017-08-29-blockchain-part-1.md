@@ -17,6 +17,8 @@ For background information on the _why_ behind blockchain and distributed ledger
 
 A distributed digital currency was [one of the most sought-after applications for distributed systems](https://www.youtube.com/watch?v=Cod7U9IIz5U), however a huge problem stood in the way of its development: the [double spend problem](https://en.wikipedia.org/wiki/Double-spending). As the distributed ledger evolved and researches made progress in applied cryptography this obstacle was ultimately overcome.
 
+---
+
 ## Table of Contents
 - [Discovering the Chain](#discovering-the-chain)
     - [1991: Haber and Stornetta](#1991-haber-and-stornetta)
@@ -27,6 +29,8 @@ A distributed digital currency was [one of the most sought-after applications fo
 - [Bitcoin](#bitcoin)
     - [Transactions](#transactions)
     - [Proof of Work](#proof-of-work)
+
+---
 
 # Discovering the Chain
 ## 1991: Haber and Stornetta
