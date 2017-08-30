@@ -21,8 +21,8 @@ Now let's talk about the state of blockchain technologies now, circa 2017. How h
 - [Evolution of Bitcoin](#evolution-of-bitcoin)
     - [Ethereum](#ethereum)
     - [Proof of Stake](#proof-of-stake)
-- [Beyond Bitcoin: Permissioned Ledgers](#beyond-bitcoin-permissioned-ledgers)
-- [Bitcoin Future](#bitcoin-future)
+- [Beyond Blockchain: Permissioned Ledgers](#beyond-blockchain-permissioned-ledgers)
+- [Blockchain Future](#blockchain-future)
     - [Off-Ledger Integration](#off-ledger-integration)
     - [Insurance](#insurance)
     - [Real Estate](#real-estate)
@@ -96,7 +96,7 @@ There are different implementations that use different methods to choose the nex
 
 This area of development is very interesting because it answers, in part, a very significant drawback of the proof of work consensus system - the wasted energy and *work* expended in keeping the blockchain secure. For example, in 2014 the energy consumption to mint a bitcoin was equivalent to [16 gallons of gasoline](http://www.coindesk.com/carbon-footprint-bitcoin/). The costs have only increased. Ethereum has announced they [plan to move to proof of stake](https://www.ethnews.com/ethereums-road-map-for-2017) for block generation in the future and many new cryptocurrencies are opting to use proof of stake instead.
 
-# Beyond Bitcoin: Permissioned Ledgers
+# Beyond Blockchain: Permissioned Ledgers
 Bitcoin and Ethereum are considered permissionless systems - in other words, their users are largely anonymous or at least pseudonymous. They do not require permission to become a part of either network. There are no gatekeepers. The transactions may be verified by the public, and transactions may be initialized by the public (as long as they have bitcoins or ether to spend).
 
 Conversely, a permissioned system has some sort of authentication to ensure that only permissioned users participate in the ledger. Permissioned ledgers may still be validated by the public but may only be written to by trusted (permissioned) individuals. Or, they may be completely private - accessing and contributing to the ledger restricted to authenticated nodes only. 
@@ -121,7 +121,7 @@ A phenomenon that has become more common and newsworthy in recent months is the 
 
 ICOs don't represent anything new in blockchain technology, but are instead new ways of distributing the cryptocurrency. They are likely here to stay, but [may be regulated in the future](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwidyqeexfzVAhWF4yYKHSuODtUQFgg6MAM&url=https%3A%2F%2Fwww.wired.com%2Fstory%2Fcrypto-fundraising-initial-coin-offerings%2F&usg=AFQjCNFkCZPW-HacshsA0lqKo8hkvXNsKw). 
 
-# Bitcoin Future
+# Blockchain Future
 
 ## Off-Ledger Integration
 Since much of the blockchain development has been around permissionless (and anonymous) blockchains, the idea of involving off-chain assets (property, goods, services) has not been seriously attempted until fairly recently. One of the problems facing integrating off-chain assets is legal enforceability of blockchain contracts. If a permissioned ledger uses legally accountable validators (known as miners in Bitcoin) and meets other legal criteria, it could pass government regulatory requirements.
