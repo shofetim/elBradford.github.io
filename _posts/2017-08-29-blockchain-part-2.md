@@ -20,10 +20,12 @@ Now let's talk about the state of blockchain technologies now, circa 2017. How h
 ---
 
 ## Table of Contents
+    - [Table of Contents](#table-of-contents)
 - [Evolution of Bitcoin](#evolution-of-bitcoin)
     - [Ethereum](#ethereum)
     - [Proof of Stake](#proof-of-stake)
 - [Beyond Blockchain: Permissioned Ledgers](#beyond-blockchain-permissioned-ledgers)
+    - [Others](#others)
 - [Blockchain Future](#blockchain-future)
     - [Off-Ledger Integration](#off-ledger-integration)
     - [Insurance](#insurance)
@@ -58,11 +60,12 @@ The enforcement of a contract is typically done through the law. Let's say Alice
 
 Alice begins pulling dandelions from Eve's yard and eventually finishes, having pulled 150 dandelions. Per the contract Alice is due $25, however Eve decides to pay her only $10. At this point the contract has been broken and Alice may bring in Bob as mediator and possibly pursue legal action against Eve.
 
-|Party|Role|
-|-----|----|
-|Alice|Pick dandelions|
-|Eve  |Pay agreed rate of $0.20 per dandelion up to 100, $0.10 thereafter|
-|Bob  |Arbitrate payment in the event of a dispute|
+|Party|Role
+|-----|----
+|Alice|Pick dandelions
+|Eve  |Pay agreed rate of $0.20 per dandelion up to 100, $0.10 thereafter
+|Bob  |Arbitrate payment in the event of a dispute
+
 *Table 1 - Contract Example*
 
 Smart contracts are protocols that allow a contract to be computerized in a way that they are automatically facilitated, verified, and enforced. Consider the example above as a smart contract. The terms are the same, but instead of being paid $20 for 100 and $0.10 each thereafter, Eve promises to pay 100 ETH and .1 ETH each thereafter, ETH being the cryptocurrency of the Ethereum blockchain. 

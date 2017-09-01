@@ -30,6 +30,12 @@ article img {
   display: block;
 }
 
+/* Caption below image */
+img + em { 
+  display: block; text-align: center;
+  margin-bottom: 3em;
+}
+
 svg:not(:root) {
 		overflow: hidden;
 }

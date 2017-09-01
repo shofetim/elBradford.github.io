@@ -20,6 +20,7 @@ A distributed digital currency was [one of the most sought-after applications fo
 ---
 
 ## Table of Contents
+    - [Table of Contents](#table-of-contents)
 - [Discovering the Chain](#discovering-the-chain)
     - [1991: Haber and Stornetta](#1991-haber-and-stornetta)
     - [2008: Satoshi Nakamoto](#2008-satoshi-nakamoto)
@@ -47,7 +48,7 @@ Satoshi Nakamoto* published the seminal [Bitcoin paper](https://bitcoin.org/bitc
 
 On January 3, 2009, shortly after Nakamoto published the paper, the Bitcoin genesis block was created.
 
-I recommend the paper to anyone with a intermediate understanding of cryptography. I'll still go through some blockchain basics as described in the paper, but before we dive into the technical details of the blockchain, let's review some cryptography basics. If you need more than this review, I recommend watching these short videos on [public key cryptography](https://www.youtube.com/watch?v=wXB-V_Keiu8) and [cryptographic hashing](https://www.youtube.com/watch?v=0WiTaBI82Mc). 
+I recommend the paper to anyone with an intermediate understanding of cryptography. I will still go through blockchain fundamentals as described in the paper, but before we dive into blockchain technicalities, let's make sure we're on the same page with some important cryptography basics. If you need more than this review, I recommend watching these short videos on [public key cryptography](https://www.youtube.com/watch?v=wXB-V_Keiu8) and [cryptographic hashing](https://www.youtube.com/watch?v=0WiTaBI82Mc). 
 
 \*<sub>[Satoshi Nakamoto](https://en.wikipedia.org/wiki/Satoshi_Nakamoto) is the pseudonym used by the creator of Bitcoin. His identity is still not public.</sub>
 
