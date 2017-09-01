@@ -17,11 +17,12 @@ comments: true
 
 **So Hot Right Now**
 
-You may have heard of Blockchain technology - if you haven't, you likely have heard of Bitcoin. You may only know enough to be confused by it or to have your curiosity piqued. In any case, you're in the right place. If you're interested in my background, [view my about page](/about). Feel free to contact me in the comments below if you have any questions or if you spot an error. 
+You may have heard of Blockchain technology - if you haven't, you likely have heard of Bitcoin. You may only know enough to be confused by it or to have your curiosity piqued. In any case, you're in the right place. Feel free to contact me in the comments below or [through my social media accounts](https://bradford.la) if you have any questions or if you spot an error. 
 
 ---
 
 ## Table of Contents
+    - [Table of Contents](#table-of-contents)
 - [Types of Networks](#types-of-networks)
     - [Centralized](#centralized)
     - [Decentralized](#decentralized)
