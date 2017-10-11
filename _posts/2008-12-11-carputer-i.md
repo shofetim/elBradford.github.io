@@ -59,7 +59,7 @@ We left around 1AM, totally exhausted. Julie was such a sweatheart, just patient
   
   <div style="text-align: left;">
     <p>
-      The following Saturday I spent a few hours putting the computer together under the passenger seat, troubleshooting problems with the cigarette lighter adapter, and getting the subwoofers ready to be installed as well.Tomorrow I&#8217;m going to hopefully get it up and running and also install Vista (nLited) on the computer. Vista has some really cool power management options that I&#8217;m going to take advantage of. I&#8217;ll also get the subs installed if I can.
+      The following Saturday I spent a few hours putting the computer together under the passenger seat, troubleshooting problems with the cigarette lighter adapter, and getting the subwoofers ready to be installed as well. Tomorrow I&#8217;m going to hopefully get it up and running and also install Vista (nLited) on the computer. Vista has some really cool power management options that I&#8217;m going to take advantage of. I&#8217;ll also get the subs installed if I can.
     </p>
   </div>
 </div>

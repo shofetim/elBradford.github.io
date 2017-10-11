@@ -28,7 +28,7 @@ It happens in my SettingsActivity, which extends SherlockPreferenceActivity. The
 
 Stack Trace:
 
-```
+```java
 FATAL EXCEPTION: main
 java.util.UnknownFormatConversionException: Conversion: 
  at java.util.Formatter$FormatSpecifierParser.unknownFormatConversionException(Formatter.java:2304)

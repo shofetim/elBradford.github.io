@@ -33,7 +33,7 @@ Bus 001 Device 004: ID 0bb4:0ce9 HTC (High Tech Computer Corp.)
 
 I used `0bb4:0ce9` obtained from the usb listing to modify the lines in `/etc/udev/rules.d/51-android.rules` to be:
 
-```
+```bash
 # adb protocol on jewel (EVO LTE)
 SUBSYSTEM=="usb", ATTR{idVendor}=="0bb4", ATTR{idProduct}=="0ce9", MODE="0600", OWNER="bradford"
 # fastboot protocol on jewel (EVO LTE)

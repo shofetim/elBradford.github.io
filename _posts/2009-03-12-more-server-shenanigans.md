@@ -23,8 +23,7 @@ I spoke with the uber-nerd at N.E.R.D Command Central Defcon Enforcement Datacen
 
 This is what I plan to put on my SheevaPlug Server:
 
-  * Gentoo Linux
-  * **L**inux
+  * Gentoo **L**inux
   * **A**pache
   * **M**ySQL
   * **P**HP
