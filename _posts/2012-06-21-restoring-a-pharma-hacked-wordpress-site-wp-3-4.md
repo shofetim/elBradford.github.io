@@ -71,8 +71,8 @@ What I did is, in order,
 
 I have a bad feeling that the site is still hacked and it&#8217;s only a matter of time before those malicious files appear again. I&#8217;ll update this if the site is still hacked.
 
-**Update 6/25/2012: **
+**Update 6/25/2012:**
 
-The site appears to be clean. [I&#8217;ve uploaded copies of the 4 files that were marked as malicious or unkown here][1]. It&#8217;s a .docx because wordpress.com limits the filetypes.
+The site appears to be clean. [I&#8217;ve uploaded copies of the 4 files that were marked as malicious or unkown here][1].
 
- [1]: /wp-content/uploads/2012/06/pharma-malicious-files.docx
+ [1]: /assets/images/posts/archive/2012/06/pharma-malicious-files.zip

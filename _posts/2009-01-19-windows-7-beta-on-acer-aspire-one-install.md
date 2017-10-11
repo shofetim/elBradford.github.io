@@ -12,7 +12,7 @@ tags:
 ---
 I got the Beta of Windows 7 the other day, and after hearing reports that <a href="http://weblogs.asp.net/guybarrette/archive/2009/01/09/windows-7-beta-acerone-performance-omg.aspx" target="_blank">Windows 7 is more netbook friendly</a>, I decided to try it out. I’m installing it on my Aspire One <a href="/acer-aspire-one-bluetooth-mod-soldering-info-ram-upgrade/" target="_blank">I’ve modded to 1.5GB RAM and bluetooth.</a>
 
-<img class="aligncenter size-full wp-image-2427" src="https://bradford.la/wp-content/uploads/2009/01/f19139072.jpg" alt="f19139072" width="300" height="225" /><!--more-->
+![](/assets/images/posts/archive/2009/01/f19139072.jpg)
 
 **Step 0: Obtain the Software** <a href="http://www.microsoft.com/windows/windows-7/beta-download.aspx" target="_blank">Get Windows 7 Beta here</a>. It may not be available for long, and if that’s the case and you are familiar with torrents, you can try downloading it from isohunt.com. Once you have the .iso file and a key (all the torrents I found had a key you can use to activate), you’re ready to continue. Try searching on btdig.com
 
@@ -48,7 +48,7 @@ Lastly, I don’t think I could justify paying ~$200 for Windows 7 as it stands 
 
 If you’re installing Windows 7 on *your* Aspire One, good luck. I hope the experience was as smooth as mine.
 
-<img class="aligncenter size-full wp-image-2441" src="https://bradford.la/wp-content/uploads/2009/01/f19224200.jpg" alt="f19224200" width="300" height="246" />
+![](/assets/images/posts/archive/2009/01/f19224200.jpg)
 
 **Update: 1/30/2009**
 

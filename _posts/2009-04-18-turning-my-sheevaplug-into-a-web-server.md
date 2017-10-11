@@ -34,78 +34,86 @@ Format your SD card to a filesystem that supports permissions (far as I know fat
 
 Copy the existing root filesystem into the SD card. (assuming mtd1 is your rootfs device)
 
-> <pre>*  mkdir /mnt/sd</pre>
-> 
-> <pre>*  mkdir /mnt/tmproot</pre>
-> 
-> <pre>*  mount /dev/mmcblk0p1 /mnt/sd</pre>
-> 
-> <pre>*  mount /dev/mtdblock1 /mnt/tmproot</pre>
-> 
-> <pre>*  cp -av /mnt/tmproot/* /mnt/sd</pre>
-> 
-> <pre>*  umount /mnt/tmproot</pre>
+```
+mkdir /mnt/sd
+mkdir /mnt/tmproot
+mount /dev/mmcblk0p1 /mnt/sd
+mount /dev/mtdblock1 /mnt/tmproot
+cp -av /mnt/tmproot/* /mnt/sd
+umount /mnt/tmproot
+```
 
 Update the SD cards fstab to mount itself as root:
 
-> <pre>*  vim /mnt/sd/etc/fstab</pre>
+```
+vim /mnt/sd/etc/fstab
+```
 
 change
 
-<pre>rootfs / rootfs rw 0 0</pre>
+```
+rootfs / rootfs rw 0 0
+```
 
 to (assuming ext3 filesystem)
 
-<pre>/dev/mmcblk0p1 / ext3 rw 0 0</pre>
+```
+/dev/mmcblk0p1 / ext3 rw 0 0
+```
 
-> <pre>*  umount /mnt/sd</pre>
-> 
-> <pre>*  reboot</pre>
+```
+umount /mnt/sd
+reboot
+```
 
 Get to the u-boot prompt (Marvell>>) &#8211; this can be done by having the serial console connected while rebooting the device, it gives you 3 second to hit any key, just hit a key.
 
 Backup bootargs_root and bootargs settings.
 
-> <pre>*  printenv bootargs_root</pre>
+```
+printenv bootargs_root
+```
 
-Mine: bootargs_root=root=/dev/mtdblock2 ro
+Mine: 
 
-> <pre>*  printenv bootargs</pre>
+```
+bootargs_root=root=/dev/mtdblock2 ro
+```
 
-Mine: bootargs=console=ttyS0,115200  
+```
+printenv bootargs
+```
+
+Mine: 
+
+```
+bootargs=console=ttyS0,115200  
 mtdparts=nand_mtd:0x400000@0x100000(uImage),  
 0x1fb00000@0x500000(rootfs)  
 rw root=/dev/mtdblock1 rw ip=10.4.50.4:10.4.50.5  
 :10.4.50.5:255.255.255.0:DB88FXX81:eth0:none
+```
 
 Change the root filesystem to the SD card.
 
-> <pre>*  set bootargs_root 'root=/dev/mmcblk0p1'</pre>
-> 
-> <pre>*  set bootargs=console=ttyS0,115200 mtdparts=nand_mtd
-:0x400000@0x100000(uImage),0x1fb00000@0x500000(rootfs)
-rw root=/dev/mmcblk0p1 rw ip=10.4.50.4:10.4.50.5:10.4.50.5
-:255.255.255.0:DB88FXX81:eth0:none</pre>
-> 
-> <pre>*  saveenv</pre>
-> 
-> <pre>*  reset</pre>
+```
+set bootargs_root 'root=/dev/mmcblk0p1'
+set bootargs=console=ttyS0,115200 mtdparts=nand_mtd:0x400000@0x100000(uImage),0x1fb00000@0x500000(rootfs) rw root=/dev/mmcblk0p1 rw ip=10.4.50.4:10.4.50.5:10.4.50.5:255.255.255.0:DB88FXX81:eth0:none
+saveenv
+reset
+```
 
 The output of &#8216;df -h&#8217; now shows (for my 8gb SD card):
 
-> <pre>Filesystem            Size  Used Avail Use% Mounted on</pre>
-> 
-> <pre>/dev/mmcblk0p1        7.4G  487M  6.6G   7% /</pre>
-> 
-> <pre>tmpfs                 252M     0  252M   0% /lib/init/rw</pre>
-> 
-> <pre>varrun                252M   36K  252M   1% /var/run</pre>
-> 
-> <pre>varlock               252M     0  252M   0% /var/lock</pre>
-> 
-> <pre>udev                  252M   16K  252M   1% /dev</pre>
-> 
-> <pre>tmpfs                 252M     0  252M   0% /dev/shm</pre>
+```
+Filesystem            Size  Used Avail Use% Mounted on
+/dev/mmcblk0p1        7.4G  487M  6.6G   7% /
+tmpfs                 252M     0  252M   0% /lib/init/rw
+varrun                252M   36K  252M   1% /var/run
+varlock               252M     0  252M   0% /var/lock
+udev                  252M   16K  252M   1% /dev
+tmpfs                 252M     0  252M   0% /dev/shm
+```
 
 If something goes wrong and it does not work, you should be able to set the bootargs_root and bootargs back to what they were.
 
@@ -119,29 +127,31 @@ Instructions on how to do so are also <a href="http://www.openplug.org/plugwiki/
 
 Since I run two wordpress blogs off of my server, I made the following additions to my /etc/lighttpd/lighttpd.conf file
 
-> <pre><span style="font-family: cOUR;">$HTTP["host"] == "bradford.la" {
- server.document-root = "/var/www/bradford.la"
- server.errorlog = "/var/log/bradford.la"
- accesslog.filename = "/var/log/bradford.la"
- dir-listing.activate = "disable" </span></pre>
-> 
-> <pre><span style="font-family: cOUR;">url.rewrite-once = (
- "^/(.*)?/?files/$" =&gt; "index.php",
- "^/(.*)?/?files/(.*)" =&gt; "wp-content/blogs.php?file=$2",
- "^/(wp-.*)$" =&gt; "$1",
- "^/([_0-9a-zA-Z-]+/)?(wp-.*)" =&gt; "$2",
- "^/([_0-9a-zA-Z-]+/)?(.*.php)$" =&gt; "$2",
- "." =&gt; "index.php"
- )
- } </span></pre>
-> 
-> <pre><span style="font-family: cOUR;">else $HTTP[host] == “…..</span></pre>
+```
+$HTTP["host"] == "bradford.la" {
+  server.document-root = "/var/www/bradford.la"
+  server.errorlog = "/var/log/bradford.la"
+  accesslog.filename = "/var/log/bradford.la"
+  dir-listing.activate = "disable"
+  url.rewrite-once = (
+    "^/(.*)?/?files/$" =&gt; "index.php",
+    "^/(.*)?/?files/(.*)" =&gt; "wp-content/blogs.php?file=$2",
+    "^/(wp-.*)$" =&gt; "$1",
+    "^/([_0-9a-zA-Z-]+/)?(wp-.*)" =&gt; "$2",
+    "^/([_0-9a-zA-Z-]+/)?(.*.php)$" =&gt; "$2",
+    "." =&gt; "index.php"
+  )
+}
+  else $HTTP[host] == "..."
+```
 
-The first line defines one virtual server (in Apache terms). There are lines in there to set up <a href="http://www.cyberciti.biz/tips/howto-lighttpd-web-server-setting-up-virtual-hosting.html" target="_blank">logging for the virtual server</a>. The line “dir-listing.activate = disable” is important, since lighttpd will allow directory listing by default. The url.rewrite-once is necessary to have your wordpress blog <a href="http://snipplr.com/view.php?codeview&id=5979" target="_blank">work with url-rewriting</a>. After that, the last line of the above example shows how you can define further sites using <a href="http://zargony.com/2008/02/04/migrating-from-apache-to-lighttpd-with-name-based-virtual-hosts-and-ssl" target="_blank">else statements</a>.
+The first line defines one virtual server (in Apache terms). There are lines in there to set up <a href="http://www.cyberciti.biz/tips/howto-lighttpd-web-server-setting-up-virtual-hosting.html" target="_blank">logging for the virtual server</a>. The line `dir-listing.activate = disable` is important, since lighttpd will allow directory listing by default. The url.rewrite-once is necessary to have your wordpress blog <a href="http://snipplr.com/view.php?codeview&id=5979" target="_blank">work with url-rewriting</a>. After that, the last line of the above example shows how you can define further sites using <a href="http://zargony.com/2008/02/04/migrating-from-apache-to-lighttpd-with-name-based-virtual-hosts-and-ssl" target="_blank">else statements</a>.
 
 Installing MySQL was as simple as
 
-> <pre><span style="font-family: Courier;">apt-get install mysql-server mysql-client</span></pre>
+```
+apt-get install mysql-server mysql-client
+```
 
 and following the on-screen instructions for setting up your MySQL passwords.
 

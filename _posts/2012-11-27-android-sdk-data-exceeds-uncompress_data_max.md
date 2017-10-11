@@ -19,7 +19,8 @@ I&#8217;m finishing up my first app (<a href="http://bantamstudio.co/attabase" t
 
 I found a tip on [Stack Overflow][1] to zip the file yourself and [use a ZipInputStream][2] to unzip it on the fly. Since I&#8217;m only ever accessing this large file once in the lifetime of my app, that&#8217;s fine. I ended up editing the Stack Overflow answers I link to above to provide examples, but here is my code that accepts a zipped file and unzips it on the fly:
 
-```AssetManager am = getAssets();
+```{java}
+AssetManager am = getAssets();
 InputStream is;
 ZipInputStream zip;
 InputStreamReader isr;
@@ -34,7 +35,7 @@ try {
 }
 
 int skipline = 1;
-CSVReader reader = new CSVReader(isr, CSVParser.DEFAULT_SEPARATOR, CSVParser.DEFAULT_QUOTE_CHARACTER, CSVParser.DEFAULT_ESCAPE_CHARACTER, skipline);</pre>
+CSVReader reader = new CSVReader(isr, CSVParser.DEFAULT_SEPARATOR, CSVParser.DEFAULT_QUOTE_CHARACTER, CSVParser.DEFAULT_ESCAPE_CHARACTER, skipline);
 ```
 
 This is assuming there is only one file in the zip file, because it will only feed the first file to the CSVReader (in this case). This is a nice workaround if you&#8217;re trying to make your app compatible to an old API.

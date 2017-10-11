@@ -15,7 +15,8 @@ categories:
 
 I’m going to the Philippines this summer, from April to June: 60 days. Below is a map of where I plan on touring. I’m really excited!
 
+<iframe src="https://www.google.com/maps/d/embed?mid=1wrYal7LgyRNmxyVAWx3d6VUuH_M" width="640" height="480"></iframe>
   
 <small>View <a style="color: #0000ff; text-align: left;" href="https://maps.google.com/maps/ms?msa=0&msid=201567053413879393611.00048dcec869a3dc37ced&hl=en&ie=UTF8&t=m&ll=9.492408,124.343262&spn=7.579749,9.338379&z=6&source=embed">Philippines Motorcycle Tour 2010</a> in a larger map</small>
 
- [1]: /category/travel/philippines-2010/
+ [1]: /travel/philippines-2010/

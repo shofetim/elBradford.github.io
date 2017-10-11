@@ -18,15 +18,15 @@ I did such a crummy job of cutting the box down that they didn&#8217;t sound tha
 
 About a month ago I had the realization that I could temporarily mount my screen and get things running despite it not being completely put together.
 
-<img class="alignnone size-full wp-image-2435" src="https://bradford.la/wp-content/uploads/2009/06/t14493992.jpg" alt="t14493992" width="160" height="120" /> <img class="alignnone size-full wp-image-2434" src="https://bradford.la/wp-content/uploads/2009/06/t14492568.jpg" alt="t14492568" width="160" height="120" /> <!--more-->
-
-<img class="alignnone size-full wp-image-2433" src="https://bradford.la/wp-content/uploads/2009/06/t14480680.jpg" alt="t14480680" width="160" height="120" /> <img class="alignnone size-full wp-image-2432" src="https://bradford.la/wp-content/uploads/2009/06/t14498176.jpg" alt="t14498176" width="160" height="120" />
-
-&nbsp;
+![](/assets/images/posts/archive/2009/06/t14493992.jpg)
+![](/assets/images/posts/archive/2009/06/t14492568.jpg)
+![](/assets/images/posts/archive/2009/06/t14480680.jpg)
+![](/assets/images/posts/archive/2009/06/t14498176.jpg)
 
 I have windows 7 running Centrafuse. I just hooked up my Visteon HD radio using Mitch’s cable and I’ve added a USB GPS module. After hours and hours and hours of troubleshooting annoying little bugs it all seems to work pretty well! For some reason it takes forever to come back from hibernation, so I just have it shut down each time the DSATX sends a kill signal. I plan on using the brainstem on the DSATX to keep the 5V hot so that I can just send my computer into standby. I use it at least once a day so there’s no danger of killing the battery. Here are a few pics of how it’s set up under the seat:
 
-<img class="alignnone size-full wp-image-2431" src="https://bradford.la/wp-content/uploads/2009/06/f19353112.jpg" alt="f19353112" width="150" height="118" /> <img class="alignnone size-full wp-image-2430" src="https://bradford.la/wp-content/uploads/2009/06/f19362184.jpg" alt="f19362184" width="167" height="120" />
+![](/assets/images/posts/archive/2009/06/f19353112.jpg)
+![](/assets/images/posts/archive/2009/06/f19362184.jpg)
 
 Since these pictures have been taken I’ve grinded the case a bit to make it smoother, repainted it, replaced the 3.5” PATA HDD with a 2.5” SATA HDD (much faster) and got a better WiFi card installed. I also upgraded the RAM to 2GB.
 

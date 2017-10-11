@@ -12,11 +12,15 @@ I’m posting this mainly because I had a really hard time finding the solution.
 
 I usually use uTorrent to create torrents, however <a title="Turning My SheevaPlug Into A Web Server" href="/2009/04/18/turning-my-sheevaplug-into-a-web-server/" target="_blank">since I switched to my sheevaplug and installed transmission</a> I&#8217;ve had to learn how to manage my torrents with a very limited cli. I did learn how to create a torrent:<!--more-->
 
-<pre>transmissioncli -n &lt;file to be shared&gt; -a &lt;URL of torrent announcement&gt; &lt;torrent file filename&gt;</pre>
+```
+$ transmissioncli -n <file to be shared> -a <URL of torrent announcement> <torrent file filename>
+```
 
 The problem I ran into after creating the torrent and uploading it to my private tracker of choice (demonoid) and then downloading the posted torrent file, it would try to download the files. It would not see them as already existing in my torrent directory. I did some sleuthing and found that the first character of any file or folder in the directory of my torrent was cut off. For example, if in my transmission cli command I put
 
-<pre>transmissioncli -n Ignotus/ -a &lt;URL of torrent announcement&gt; &lt;torrent file filename&gt;</pre>
+```
+$ transmissioncli -n Ignotus/ -a <URL of torrent announcement> <torrent file filename>
+```
 
 it would successfully create a torrent for the directory Ignotus. However any of the files in that folder would be listed without the first character. So, if the files were tracks from the Ignotus album with leading zeros (01, 02, 03 etc) they would instead be (1, 2, 3). This made the torrent client not recognize that the files were already downloaded.
 

@@ -27,16 +27,16 @@ In fact, I soon found out that this was the model that AT&T is selling for aroun
   * Bluetooth Module
   * +1GB RAM for 2GB total
 
-<img class="aligncenter size-full wp-image-2414" src="https://bradford.la/wp-content/uploads/2010/03/f15551376.jpg" alt="f15551376" width="300" height="225" />
+ ![](/assets/images/posts/archive/2010/03/f15551376.jpg)
 
 The problem I had with my SSD was that it DID NOT FIT into the hard drive bay! I soon found out that the reason it didn’t fit was that a SSD has material where a regular hard drive doesn’t – the picture below will illustrate:<span style="line-height: 1.5;"> </span>
 
-<img class="aligncenter size-full wp-image-2412" src="https://bradford.la/wp-content/uploads/2010/03/f15546112.jpg" alt="f15546112" width="368" height="274" />
+ ![](/assets/images/posts/archive/2010/03/f15546112.jpg)
 
 There is a part of the motherboard that intrudes into the hard drive bay, right under the lip of a typical HDD. I had no other real use for this small SSD so I took matters into my own hands. I took the disk apart and used my dad’s grinder to shape the SSD case so it would fit.
 
-<img class="aligncenter size-full wp-image-2413" src="https://bradford.la/wp-content/uploads/2010/03/f15540752.jpg" alt="f15540752" width="300" height="225" />
+ ![](/assets/images/posts/archive/2010/03/f15540752.jpg)
 
 As you can see it isn’t pretty, but the drive still works perfectly. Surprisingly the S10 isn’t that much faster after the SSD and RAM upgrades. It’s useable, but it just shows that the real bottleneck in this is the processor.
 
- [1]: /category/travel/philippines-2010/
+ [1]: /travel/philippines-2010/

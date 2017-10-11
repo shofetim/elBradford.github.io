@@ -14,7 +14,8 @@ And now the server shenanigans! <!--more-->I decided today to get rid of my desk
 
 [SheevaPlug][1], but NOW (I have a hard time concentrating on homework when I could be playing [Team Fortress 2][2]). So, I took some pictures, slapped it on the internet, and took my Debian lamp server image from my desktop and put it on my Aspire One.  Yep! My little guy is now a server! It serves up cached pages from WordPress really quickly but some of the back end stuff (wp-admin) is a little slower.  The music in my other blog posts won&#8217;t work until I get the music from my desktop into an external hard drive. Things are looking good for that SheevaPlug. It has a slower clocked CPU, and instead of x86 it&#8217;s ARM, so I really don&#8217;t know what to expect. But at least I know it will work.
 
-<img class="aligncenter size-full wp-image-2416" src="https://bradford.la/wp-content/uploads/2009/03/f19369736.jpg" alt="f19369736" width="300" height="225" />
+![](/assets/images/posts/archive/2009/03/f19369736.jpg)
+
 
 I&#8217;ve actually ordered the SheevaPlug &#8211; it should ship sometime this month. Last night I also ordered a <a href="http://www.newegg.com/Product/Product.aspx?Item=N82E16817182144" target="_self">2-drive JBOD USB hard drive enclosure</a> (to put 2 hard drives in that you can just plug into a computer via USB) along with a big fatty 1TB HDD for all my media files for my current Aspire Server and my SheevaPlug server once I have it all set up.
 

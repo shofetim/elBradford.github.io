@@ -11,7 +11,7 @@ categories:
 ---
 For a long time I have held the belief that, as children of God, we all face different trials during our respective extended stays away from Him. I’m really talking about soul-deep trials and not superficial problems we encounter from day to day. I further believe that, although our trials are very different and unique, we are all tried in the same measure. With this view God is ultimately fair. I believe that the extent of our trials rests much on how we respond to them. And that is what this short blog post is about.
 
-<img class="aligncenter size-large wp-image-2093" src="http://bradford.la/wp-content/uploads/2009/07/everest-mckinley-base-to-peak-height-02-e1407546978872-1024x638.jpg" alt="everest-mckinley-base-to-peak-height-02" width="604" height="376" />
+![](/assets/images/posts/archive/2009/07/everest-mckinley-base-to-peak-height-02-e1407546978872-1024x638.jpg)
 
 The analogy of a mountain in the context of such trials is probably overused and no doubt clichéd, but I hope you’ll forgive me; it is the most appropriate image I can conjure.
 
