@@ -15,4 +15,5 @@ format: image
 ---
 <!--more--><figure id="attachment_1623" style="width: 474px;" class="wp-caption alignnone">
 
-<a href="https://bradford.la/wp-content/uploads/2013/10/E-002685-20111006.jpg" target="_blank"><img class="wp-image-1623 size-large" src="https://bradford.la/wp-content/uploads/2013/10/E-002685-20111006-1024x645.jpg" alt="View from Vaekero near Christiania" width="474" height="298" /></a><figcaption class="wp-caption-text">View from Vaekero near Christiania</figcaption></figure>
+[![]({{ site.img-dir-posts-arch }}/wp-content/uploads/2013/10/E-002685-20111006-1024x645.jpg)]({{ site.img-dir-posts-arch }}/wp-content/uploads/2013/10/E-002685-20111006.jpg)
+*View from Vaekero near Christiania*
