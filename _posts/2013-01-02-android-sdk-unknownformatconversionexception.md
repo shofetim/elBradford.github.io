@@ -28,7 +28,8 @@ It happens in my SettingsActivity, which extends SherlockPreferenceActivity. The
 
 Stack Trace:
 
-> <pre>FATAL EXCEPTION: main
+```
+FATAL EXCEPTION: main
 java.util.UnknownFormatConversionException: Conversion: 
  at java.util.Formatter$FormatSpecifierParser.unknownFormatConversionException(Formatter.java:2304)
  at java.util.Formatter$FormatSpecifierParser.advance(Formatter.java:2298)
@@ -40,6 +41,7 @@ java.util.UnknownFormatConversionException: Conversion:
  at java.util.Formatter.format(Formatter.java:1009)
  at java.lang.String.format(String.java:1998)
  at java.lang.String.format(String.java:1972)
- at android.preference.ListPreference.getSummary(ListPreference.java:152)</pre>
+ at android.preference.ListPreference.getSummary(ListPreference.java:152)
+ ```
 
  [1]: http://stackoverflow.com/questions/4414389/android-xml-percent-symbol

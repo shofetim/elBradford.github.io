@@ -19,9 +19,8 @@ I chose some classic elements, including an image of Christ being baptized by Jo
 
 I&#8217;ve thrown what I&#8217;ve created up here in hopes that someone else might stumble upon it and find it helpful. Also, the images that I used can be found in my <a title="Life of Jesus Christ: Wallpapers and Themepack" href="http://bradford.la/2009/04/19/theme-pack-life-of-jesus-christ/" target="_blank">Life of Christ themepack / wallpaper pack</a>. I highly recommend downloading it and giving it a whirl. The images are beautiful.
 
-<p style="text-align: center;">
-  <img class="aligncenter size-large wp-image-2143" src="http://bradford.la/wp-content/uploads/2014/08/Baptismal-Program-1-1024x788.png" alt="Baptismal Program 1" width="604" height="464" /> <img class="aligncenter size-large wp-image-2144" src="http://bradford.la/wp-content/uploads/2014/08/Baptismal-Program-2-1024x792.png" alt="Baptismal Program 2" width="604" height="467" />
-</p>
+![Baptismal Program 1](/assets/images/posts/archive/2014/08/Baptismal-Program-1-1024x788.png)
+![Baptismal Program 1](/assets/images/posts/archive/2014/08/Baptismal-Program-2-1024x792.png)
 
 <h3 style="text-align: center;">
   <a href="https://bradford.la/wp-content/uploads/2014/08/LDS-Baptismal-Program.docx">Download LDS Baptismal Program</a>

@@ -15,19 +15,25 @@ When I first created my VM for developing, I made the VHD a dynamic hard drive, 
 
 I first tried resizing the VHD with the VBoxManage command modifyhd:
 
-<pre class="brush: bash; title: ; notranslate" title="">VBoxManage modifyhd [vhd or vdi file] --resize [size in MB]</pre>
+```
+VBoxManage modifyhd [vhd or vdi file] --resize [size in MB]
+```
 
 When I tried that command from an elevated command prompt, I got the following error:
 
-<pre class="brush: bash; title: ; notranslate" title="">VBoxManage.exe: error: Failed to create the VirtualBox object!
+```
+VBoxManage.exe: error: Failed to create the VirtualBox object!
 VBoxManage.exe: error: Code CO_E_SERVER_EXEC_FAILURE (0x80080005) - Server execution failed (extended info not available)
-VBoxManage.exe: error: Most likely, the VirtualBox COM server is not running or failed to start.</pre>
+VBoxManage.exe: error: Most likely, the VirtualBox COM server is not running or failed to start.
+```
 
-Running from an un-elevated command line fixed the issue, however after resizing the VHD in this way, **the process apparently corrupted ****my MBR. Thankfully I made a backup and was able to start again. ALWAYS CREATE A BACKUP.**
+Running from an un-elevated command line fixed the issue, however after resizing the VHD in this way, **the process apparently corrupted my MBR. Thankfully I made a backup and was able to start again. ALWAYS CREATE A BACKUP.**
 
 Finally, I gave up and created a new VHD and cloned it using the GParted bootable ISO (see below) and dd from the command line:
 
-<pre class="brush: bash; title: ; notranslate" title=""># dd if=/dev/sda of=/dev/sdb</pre>
+```
+# dd if=/dev/sda of=/dev/sdb
+```
 
 This took about 10 minutes for a 20GB VHD (/dev/sda). Once I had them cloned, I resized the guest file system in GParted.
 

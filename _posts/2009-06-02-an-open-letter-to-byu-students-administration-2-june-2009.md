@@ -8,9 +8,8 @@ permalink: /2009/an-open-letter-to-byu-students-administration-2-june-2009
 categories:
   - School
 ---
-<p style="text-align: center;">
-  <img class="aligncenter wp-image-2035 size-full" src="http://bradford.la/wp-content/uploads/2009/06/313675272_c81fe55a22.jpg" alt="313675272_c81fe55a22" width="500" height="340" />
-</p>
+
+![Praying with Grandpa, 1894](/assets/images/posts/archive/2009/06/313675272_c81fe55a22.jpg)
 
 I expect this note, if printed in the Daily Universe, to receive heated responses denouncing it as unrighteous and heretical, an unfortunately common response on BYU campus when alternative ideas are offered. Maybe it is a tired subject, but daily reminders compel me to write this. I understand that this is a private university and as such BYU can create any code of conduct it believes prudent. However, as it is also a church institution, it should represent the ideals of the church while employing means to achieve these ideals that are compatible with the gospel.<!--more-->
 

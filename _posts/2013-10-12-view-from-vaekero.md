@@ -15,5 +15,5 @@ format: image
 ---
 <!--more--><figure id="attachment_1623" style="width: 474px;" class="wp-caption alignnone">
 
-[![]({{ site.img-dir-posts-arch }}/wp-content/uploads/2013/10/E-002685-20111006-1024x645.jpg)]({{ site.img-dir-posts-arch }}/wp-content/uploads/2013/10/E-002685-20111006.jpg)
+[![](/assets/images/posts/archive/2013/10/E-002685-20111006-1024x645.jpg)](/assets/images/posts/archive/2013/10/E-002685-20111006.jpg)
 *View from Vaekero near Christiania*
