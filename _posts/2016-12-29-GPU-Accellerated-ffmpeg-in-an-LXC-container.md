@@ -78,6 +78,8 @@ I use Proxmox, so the command to install the kernel headers is:
 #  apt install pve-headers-$(uname -r)
 ```
 
+> Note: You may need to add the [Proxmox No-Subscription Repository](https://pve.proxmox.com/wiki/Package_Repositories) if you don't have a Proxmox subscription.
+
 If you're using Debian or Ubuntu, this command should install them:
 
 ```bash
