@@ -326,14 +326,14 @@ That's it! You now have a service that automatically starts that will give you r
 
 ## Bonus - Jupyter Lab Widget Support
 
-To enable widget support with `jupyterlab`, run the following command from your `anaconda` environment:
+To enable `ipywidgets` widget support with `jupyterlab`, run the following command from your `anaconda` environment:
 
 ```bash
+(anaconda3-5.0.1) $ conda install -c conda-forge ipywidgets
 (anaconda3-5.0.1) $ jupyter labextension install @jupyter-widgets/jupyterlab-manager
 ```
 
 
 ![Python Logo](/assets/images/posts/2017/python_logo.svg)
 ![Anaconda Logo](/assets/images/posts/2017/anaconda_logo.png)
-
 ![Node.js Logo](/assets/images/posts/2017/node_logo.png)
