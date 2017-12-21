@@ -18,9 +18,9 @@ comments: true
 ---
 I am doing some data science at the moment. I have been working heavily on a project in Python that collects data. I'm at the stage now where I am working with the collected data. I initially started using Matlab for this purpose, but I spent so much time learning the Matlab syntax, that I decided to switch to Python for my data science needs. 
 
-I started with Spyder, which is pretty good, albeit rough. I learned about [Jupyter](https://jupyter.org/) and the new [Jupyter Lab](https://github.com/jupyterlab/) project, which looks like the perfect fit for my data science needs.
+I started with Spyder, which is pretty good, albeit rough around the edges coming from PyCharm. I learned about [Jupyter](https://jupyter.org/) and the new [Jupyter Lab](https://github.com/jupyterlab/) project, which, while in active development, looks like it might be a good fit for my data science needs.
 
-In this how-to, I will guide you through creating a user-space Anaconda environment in an Ubuntu 17.04 Server (headless) virtual machine running in VMWare Workstation 14 on Windows 10, although this should work for any Linux distribution.
+In this how-to, I will guide you through creating a user-space Anaconda environment, install Jupyter Lab, and create a `systemctl` service that will automatically run Jupyter Lab at startup. I did everything in an Ubuntu 17.04 Server (headless) virtual machine running in VMWare Workstation 14 on Windows 10, although this should work for any Linux distribution with `systemctl`.
 
 ![Jupyter Logo](/assets/images/posts/2017/jupyter_logo.svg)
 
