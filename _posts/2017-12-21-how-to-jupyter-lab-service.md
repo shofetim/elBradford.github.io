@@ -296,8 +296,7 @@ Edit the file `~/.config/systemd/user/jupyterlab.service` to look like this:
 Description=Service to run JupyterLab in user space
 
 [Service]
-WorkingDirectory=/home/bradford/repos/localizer/valid/scripts/capture_process/
-ExecStart=/bin/bash -c "source /home/bradford/.bash_profile; eval /home/bradford/jupyterlab.sh"
+ExecStart=/bin/bash -c "source ~/.bash_profile; eval ~/jupyterlab.sh"
 
 [Install]
 WantedBy=default.target
@@ -309,7 +308,7 @@ Now enable the `jupyterlab.service` you just created with
 $ systemctl --user enable jupyterlab.service
 ```
 
-> **Note:** If you get a message like `Failed to connect to bus: No such file or directory`, it means the dbus service isn't running for your user. Restarting, or starting a new shell should do the trick. I had this issue when logging in as a new user using the `su - <user name>` command.
+> **Note:** If you get a message like `Failed to connect to bus: No such file or directory`, it means the `dbus` service isn't running for your user. Restarting, or starting a new shell should do the trick. I had this issue when logging in as a new user using the `su - <user name>` command.
 
 Start the service with the `start` command, and view the status of the service with the `status` command:
 
