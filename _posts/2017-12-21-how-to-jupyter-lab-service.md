@@ -318,7 +318,7 @@ $ systemctl --user start jupyterlab
 $ systemctl --user status jupyterlab
 ```
 
-> **Note:** If you don't see any log messages when using the `status` command, you may need to edit `/etc/systemd/journald.conf` as root and set the value `Storage=persistent`, per [this issue](https://serverfault.com/questions/806469/how-to-allow-a-user-to-use-journalctl-to-see-user-specific-systemd-service-logs/814913)
+> **Note:** If you don't see any log messages when using the `status` command, you may need to edit `/etc/systemd/journald.conf` as root and set the value `Storage=persistent`, per [this issue](https://stackoverflow.com/questions/30783134/systemd-user-journals-not-being-created/47930381#47930381)
 
 The output from `status` will tell you the address to visit and help you with troubleshooting steps as well. If you still are using tokens (instead of a password, as described above), the token will be displayed in this log. 
 
